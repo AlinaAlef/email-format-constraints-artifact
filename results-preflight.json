@@ -1,0 +1,74 @@
+{
+ "opus-chrome": {
+  "html": 37,
+  "mjml": 11,
+  "split": 4,
+  "html_share": 0.7115384615384616,
+  "cost": 4.15,
+  "overall_diff": 1.0576923076923077
+ },
+ "opus-outlook": {
+  "html": 2,
+  "mjml": 48,
+  "split": 2,
+  "html_share": 0.038461538461538464,
+  "cost": 2.97,
+  "overall_diff": -3.173076923076923
+ },
+ "opus-mcnemar": {
+  "chrome_only": 35,
+  "outlook_only": 0,
+  "p": 5.820766091346741e-11
+ },
+ "opus-diffchange": {
+  "mean": -4.230769230769231,
+  "wilcoxon_p": 3.2916363171828995e-10
+ },
+ "opus-outlook-vs-safe": 7.13819846419765e-08,
+ "opus-outlook-words": {
+  "missing": 4,
+  "invisible": 17,
+  "unreadable": 9,
+  "broken": 49,
+  "white text": 3,
+  "blank": 4,
+  "polished": 87,
+  "card": 19
+ },
+ "gpt-chrome": {
+  "html": 36,
+  "mjml": 9,
+  "split": 7,
+  "html_share": 0.6923076923076923,
+  "cost": 2.15,
+  "overall_diff": 0.7980769230769231
+ },
+ "gpt-outlook": {
+  "html": 2,
+  "mjml": 48,
+  "split": 2,
+  "html_share": 0.038461538461538464,
+  "cost": 1.52,
+  "overall_diff": -2.019230769230769
+ },
+ "gpt-mcnemar": {
+  "chrome_only": 34,
+  "outlook_only": 0,
+  "p": 1.1641532182693481e-10
+ },
+ "gpt-diffchange": {
+  "mean": -2.8173076923076925,
+  "wilcoxon_p": 3.749321570777484e-10
+ },
+ "gpt-outlook-vs-safe": 1.5159805416025505e-07,
+ "gpt-outlook-words": {
+  "missing": 1,
+  "invisible": 5,
+  "unreadable": 2,
+  "broken": 0,
+  "white text": 0,
+  "blank": 0,
+  "polished": 70,
+  "card": 10
+ }
+}

@@ -1,0 +1,834 @@
+[
+ {
+  "set": "S",
+  "brief": "medspa-aftercare",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/medspa-aftercare/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "medspa-aftercare",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/medspa-aftercare/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "medspa-aftercare",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/medspa-aftercare/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "medspa-aftercare",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/medspa-aftercare/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "salon-welcome",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/salon-welcome/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "salon-welcome",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/salon-welcome/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "salon-welcome",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/salon-welcome/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "salon-welcome",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/salon-welcome/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "skin-winback",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/skin-winback/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "skin-winback",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/skin-winback/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "skin-winback",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/skin-winback/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "skin-winback",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/skin-winback/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "spa-reminder",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/spa-reminder/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "spa-reminder",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/spa-reminder/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/wellness-giftcard/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/wellness-giftcard/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/wellness-giftcard/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/wellness-giftcard/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "gpt-6-luna__low",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/wellness-giftcard/raw-html__gpt-6-luna__low/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "gpt-6-luna__low",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/wellness-giftcard/raw__gpt-6-luna__low/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "yoga-newsletter",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/yoga-newsletter/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "yoga-newsletter",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/yoga-newsletter/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "yoga-newsletter",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/yoga-newsletter/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "S",
+  "brief": "yoga-newsletter",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-09-raw-formats/yoga-newsletter/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s01",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s01/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s01",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s01/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s01",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s01/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s01",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s01/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s02",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s02/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s02",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s02/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s02",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s02/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s02",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s02/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s03",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s03/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s03",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s03/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s03",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s03/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s03",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s03/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s04",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s04/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s04",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s04/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s04",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s04/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s04",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s04/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s05",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s05/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s05",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s05/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s05",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s05/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s05",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s05/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s06",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s06/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s06",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s06/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s06",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s06/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s06",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s06/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s07",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s07/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s07",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s07/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s07",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s07/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s07",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s07/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s08",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s08/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s08",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s08/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s08",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s08/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s08",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s08/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s09",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s09/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s09",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s09/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s09",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s09/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s09",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s09/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s10",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s10/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s10",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s10/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s11",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s11/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s11",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s11/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s11",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s11/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s11",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s11/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s12",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s12/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s12",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s12/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s12",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s12/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s12",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s12/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s13",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s13/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s13",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s13/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s13",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s13/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s13",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s13/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s14/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s14/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s14/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s14/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-sonnet-5-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s14/raw-html__claude-sonnet-5-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-sonnet-5-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s14/raw__claude-sonnet-5-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s15",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s15/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s15",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s15/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s15",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s15/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s15",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s15/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s16",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s16/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s16",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s16/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s16",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s16/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s16",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s16/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s17",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s17/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s17",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s17/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s17",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s17/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s17",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s17/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s18",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s18/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s18",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s18/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s18",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s18/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s18",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s18/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s19",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s19/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s19",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s19/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s19",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s19/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s19",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s19/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s20",
+  "slug": "claude-haiku-4-5",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s20/raw-html__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s20",
+  "slug": "claude-haiku-4-5",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s20/raw__claude-haiku-4-5/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s20",
+  "slug": "claude-sonnet-4-6",
+  "format": "html",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s20/raw-html__claude-sonnet-4-6/email.html",
+  "exists": true
+ },
+ {
+  "set": "F",
+  "brief": "s20",
+  "slug": "claude-sonnet-4-6",
+  "format": "mjml",
+  "path": "<repo>/research/generation-approaches/2026-10-29-raw-formats-setF/s20/raw__claude-sonnet-4-6/email.html",
+  "exists": true
+ }
+]
