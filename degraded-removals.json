@@ -1,0 +1,1123 @@
+[
+ {
+  "set": "S",
+  "brief": "medspa-aftercare",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 2,
+   "gradient": 2,
+   "border-radius": 5,
+   "transform": 1
+  },
+  "risk": {
+   "layout": [
+    "css-transform"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "medspa-aftercare",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 8,
+   "box-shadow": 2,
+   "gradient": 2,
+   "position": 2,
+   "pseudo-element rule": 4
+  },
+  "risk": {
+   "layout": [
+    "css-left-right-top-bottom",
+    "css-position"
+   ],
+   "content": [
+    "css-linear-gradient",
+    "css-pseudo-element-before"
+   ],
+   "flags": [
+    "position"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "salon-welcome",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 5,
+   "box-shadow": 1,
+   "gradient": 2,
+   "transform": 1
+  },
+  "risk": {
+   "layout": [
+    "css-transform"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "salon-welcome",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "gradient": 3,
+   "border-radius": 7,
+   "display:flex": 4,
+   "flex/grid property": 11
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex",
+    "css-gap",
+    "css-justify-content"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "skin-winback",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 5,
+   "box-shadow": 1,
+   "gradient": 1,
+   "position": 1,
+   "pseudo-element rule": 1
+  },
+  "risk": {
+   "layout": [
+    "css-left-right-top-bottom",
+    "css-position"
+   ],
+   "content": [
+    "css-linear-gradient",
+    "css-pseudo-element-before"
+   ],
+   "flags": [
+    "no table layout",
+    "position"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "skin-winback",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 13,
+   "box-shadow": 1,
+   "gradient": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "spa-reminder",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 4,
+   "box-shadow": 1,
+   "gradient": 1,
+   "display:flex": 1
+  },
+  "risk": {
+   "layout": [
+    "css-display-flex"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "gradient": 2,
+   "border-radius": 4,
+   "transform": 1,
+   "box-shadow": 1
+  },
+  "risk": {
+   "layout": [
+    "css-transform"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "position": 1,
+   "gradient": 2,
+   "border-radius": 3,
+   "box-shadow": 2
+  },
+  "risk": {
+   "layout": [
+    "css-position"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout",
+    "position"
+   ],
+   "mso": true
+  }
+ },
+ {
+  "set": "S",
+  "brief": "wellness-giftcard",
+  "slug": "gpt-6-luna__low",
+  "counts": {
+   "float": 3,
+   "border-radius": 1
+  },
+  "risk": {
+   "layout": [
+    "css-float"
+   ],
+   "content": [],
+   "flags": [],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "yoga-newsletter",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "gradient": 2,
+   "border-radius": 5,
+   "<form> element": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient",
+    "html-button-submit",
+    "html-form"
+   ],
+   "flags": [
+    "<form> element",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "S",
+  "brief": "yoga-newsletter",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 9,
+   "position": 1,
+   "offset/z-index": 1,
+   "display:flex": 6,
+   "flex/grid property": 15,
+   "gradient": 1,
+   "pseudo-element rule": 1,
+   "<svg> element": 1
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex",
+    "css-gap",
+    "css-justify-content",
+    "css-left-right-top-bottom",
+    "css-position"
+   ],
+   "content": [
+    "css-linear-gradient",
+    "css-pseudo-element-before",
+    "html-svg"
+   ],
+   "flags": [
+    "display:flex",
+    "inline <svg>",
+    "position"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s01",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 3,
+   "box-shadow": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s01",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 7,
+   "box-shadow": 1,
+   "display:flex": 3,
+   "flex/grid property": 10
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex",
+    "css-gap",
+    "css-justify-content"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s02",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 4,
+   "box-shadow": 1,
+   "position": 1,
+   "pseudo-element rule": 1
+  },
+  "risk": {
+   "layout": [
+    "css-left-right-top-bottom",
+    "css-position"
+   ],
+   "content": [
+    "css-pseudo-element-before"
+   ],
+   "flags": [
+    "no table layout",
+    "position"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s02",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 7,
+   "box-shadow": 1,
+   "gradient": 2,
+   "display:flex": 1,
+   "flex/grid property": 1
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s03",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 5,
+   "box-shadow": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s03",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 5,
+   "box-shadow": 1,
+   "position": 1,
+   "pseudo-element rule": 1
+  },
+  "risk": {
+   "layout": [
+    "css-left-right-top-bottom",
+    "css-position"
+   ],
+   "content": [
+    "css-pseudo-element-before"
+   ],
+   "flags": [
+    "no table layout",
+    "position"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s04",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 6,
+   "box-shadow": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s04",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 7,
+   "box-shadow": 1,
+   "display:flex": 1,
+   "flex/grid property": 3
+  },
+  "risk": {
+   "layout": [
+    "css-display-flex",
+    "css-gap"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s05",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 1,
+   "border-radius": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s05",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 6,
+   "box-shadow": 1,
+   "display:flex": 2,
+   "flex/grid property": 3
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex",
+    "css-justify-content"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s06",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 1,
+   "gradient": 1,
+   "border-radius": 3
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s06",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 6,
+   "box-shadow": 1,
+   "display:flex": 1,
+   "flex/grid property": 3
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex",
+    "css-gap"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s07",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 2,
+   "pseudo-element rule": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-pseudo-element-before"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s07",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 5,
+   "box-shadow": 1,
+   "position": 1,
+   "pseudo-element rule": 1
+  },
+  "risk": {
+   "layout": [
+    "css-left-right-top-bottom",
+    "css-position"
+   ],
+   "content": [
+    "css-pseudo-element-before"
+   ],
+   "flags": [
+    "no table layout",
+    "position"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s08",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 1,
+   "gradient": 1,
+   "border-radius": 3
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s08",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 7,
+   "box-shadow": 2,
+   "display:flex": 1,
+   "flex/grid property": 1
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s09",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 4,
+   "box-shadow": 1,
+   "gradient": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s09",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 9,
+   "box-shadow": 1,
+   "display:flex": 2,
+   "flex/grid property": 5,
+   "gradient": 1
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex",
+    "css-gap",
+    "css-justify-content"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s10",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 4,
+   "box-shadow": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s11",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 1,
+   "border-radius": 2,
+   "display:flex": 1,
+   "flex/grid property": 3
+  },
+  "risk": {
+   "layout": [
+    "css-display-flex",
+    "css-flex-wrap",
+    "css-gap",
+    "css-justify-content"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s11",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 7,
+   "box-shadow": 1,
+   "gradient": 2
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s12",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 4,
+   "box-shadow": 1,
+   "gradient": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s12",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 5,
+   "box-shadow": 1,
+   "gradient": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s13",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "gradient": 1,
+   "display:flex": 1,
+   "flex/grid property": 1,
+   "border-radius": 4
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex"
+   ],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s13",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 8,
+   "box-shadow": 1,
+   "gradient": 2
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 1,
+   "gradient": 1,
+   "border-radius": 3
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 7,
+   "box-shadow": 1,
+   "gradient": 3
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s14",
+  "slug": "claude-sonnet-5-5",
+  "counts": {
+   "border-radius": 6,
+   "float": 1
+  },
+  "risk": {
+   "layout": [
+    "css-float"
+   ],
+   "content": [],
+   "flags": [],
+   "mso": true
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s15",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 4,
+   "box-shadow": 1,
+   "display:flex": 1,
+   "flex/grid property": 1
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s15",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 7,
+   "box-shadow": 1,
+   "gradient": 2
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s16",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "gradient": 1,
+   "position": 1,
+   "pseudo-element rule": 1,
+   "border-radius": 1
+  },
+  "risk": {
+   "layout": [
+    "css-left-right-top-bottom",
+    "css-position"
+   ],
+   "content": [
+    "css-linear-gradient",
+    "css-pseudo-element-before"
+   ],
+   "flags": [
+    "no table layout",
+    "position"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s16",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 12,
+   "gradient": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s17",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 1,
+   "border-radius": 3
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s17",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 6,
+   "display:flex": 1,
+   "flex/grid property": 2
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s18",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "box-shadow": 1,
+   "gradient": 1,
+   "border-radius": 4
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s18",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 4,
+   "box-shadow": 1
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s19",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "gradient": 1,
+   "border-radius": 4
+  },
+  "risk": {
+   "layout": [],
+   "content": [
+    "css-linear-gradient"
+   ],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s19",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 6,
+   "box-shadow": 1,
+   "display:flex": 1,
+   "flex/grid property": 1
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s20",
+  "slug": "claude-haiku-4-5",
+  "counts": {
+   "border-radius": 2
+  },
+  "risk": {
+   "layout": [],
+   "content": [],
+   "flags": [
+    "no table layout"
+   ],
+   "mso": false
+  }
+ },
+ {
+  "set": "F",
+  "brief": "s20",
+  "slug": "claude-sonnet-4-6",
+  "counts": {
+   "border-radius": 4,
+   "display:flex": 1,
+   "flex/grid property": 1
+  },
+  "risk": {
+   "layout": [
+    "css-align-items",
+    "css-display-flex"
+   ],
+   "content": [],
+   "flags": [
+    "display:flex",
+    "no table layout"
+   ],
+   "mso": false
+  }
+ }
+]
