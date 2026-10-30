@@ -1,0 +1,104 @@
+pooled: 312 HTML, 310 MJML, 310 pairs
+
+== paired contrasts (HTML − MJML) ==
+cost                   0.053 vs 0.039  diff +0.014 [+0.011, +0.018] n=310
+out_tokens             2595 vs 1975  diff +620 [+519, +723] n=310
+sec                    24 vs 21  diff +3 [+2, +4] n=310
+bytes                  7087 vs 24139  diff -17051 [-17731, -16403] n=310
+words                  218 vs 214  diff +4 [-1, +8] n=310
+bracket_placeholders   0.048 vs 0.003  diff +0.045 [+0.013, +0.087] n=310
+cost ratio HTML/MJML   mean ratio 1.29 [1.25, 1.33]
+token ratio HTML/MJML  mean ratio 1.30 [1.26, 1.34]
+
+== shares (emails) ==
+mso                    HTML 15/312 = 4.8%   MJML 310/310 = 100.0%
+media_query            HTML 110/312 = 35.3%   MJML 310/310 = 100.0%
+table_layout           HTML 273/312 = 87.5%   MJML 310/310 = 100.0%
+google_fonts           HTML 6/312 = 1.9%   MJML 36/310 = 11.6%
+unsubscribe            HTML 125/312 = 40.1%   MJML 126/310 = 40.6%
+phone overflow         HTML 8/312   MJML 2/310
+pipeline flag any      HTML 44/312   MJML 0/310
+pipeline flags HTML: {'no table layout': 39, 'position': 8, 'display:flex': 16, '<form> element': 1, 'inline <svg>': 1}
+
+== risk shares by client (emails with ≥1 unsupported feature of the class, outside @media) ==
+Outlook Windows    layout 28/312 (9.0%) vs 1/310 (0.3%) | content 32/312 (10.3%) vs 1/310 (0.3%) | fonts 0/312 (0.0%) vs 0/310 (0.0%) | cosmetic 310/312 (99.4%) vs 310/310 (100.0%)
+Gmail web          layout 24/312 (7.7%) vs 1/310 (0.3%) | content 8/312 (2.6%) vs 0/310 (0.0%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 141/312 (45.2%) vs 287/310 (92.6%)
+Gmail iOS          layout 24/312 (7.7%) vs 1/310 (0.3%) | content 8/312 (2.6%) vs 0/310 (0.0%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 122/312 (39.1%) vs 289/310 (93.2%)
+Gmail Android      layout 24/312 (7.7%) vs 1/310 (0.3%) | content 8/312 (2.6%) vs 0/310 (0.0%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 79/312 (25.3%) vs 287/310 (92.6%)
+Outlook.com        layout 3/312 (1.0%) vs 0/310 (0.0%) | content 28/312 (9.0%) vs 1/310 (0.3%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 110/312 (35.3%) vs 286/310 (92.3%)
+Yahoo web          layout 24/312 (7.7%) vs 1/310 (0.3%) | content 32/312 (10.3%) vs 1/310 (0.3%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 159/312 (51.0%) vs 310/310 (100.0%)
+Apple Mail iOS     layout 0/312 (0.0%) vs 0/310 (0.0%) | content 0/312 (0.0%) vs 0/310 (0.0%) | fonts 0/312 (0.0%) vs 0/310 (0.0%) | cosmetic 49/312 (15.7%) vs 286/310 (92.3%)
+Apple Mail macOS   layout 0/312 (0.0%) vs 0/310 (0.0%) | content 0/312 (0.0%) vs 0/310 (0.0%) | fonts 0/312 (0.0%) vs 0/310 (0.0%) | cosmetic 0/312 (0.0%) vs 0/310 (0.0%)
+Outlook macOS      layout 3/312 (1.0%) vs 0/310 (0.0%) | content 28/312 (9.0%) vs 1/310 (0.3%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 61/312 (19.6%) vs 288/310 (92.9%)
+Outlook iOS        layout 11/312 (3.5%) vs 0/310 (0.0%) | content 28/312 (9.0%) vs 1/310 (0.3%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 79/312 (25.3%) vs 286/310 (92.3%)
+Samsung Email      layout 0/312 (0.0%) vs 0/310 (0.0%) | content 0/312 (0.0%) vs 0/310 (0.0%) | fonts 6/312 (1.9%) vs 36/310 (11.6%) | cosmetic 103/312 (33.0%) vs 57/310 (18.4%)
+paired Outlook Windows layout: 9.0% vs 0.3%  diff +8.7 [+5.8, +11.9] n=310
+paired Outlook Windows content: 10.3% vs 0.3%  diff +10.0 [+6.8, +13.5] n=310
+paired Gmail web layout: 7.7% vs 0.3%  diff +7.4 [+4.5, +10.6] n=310
+paired Gmail web content: 2.6% vs 0.0%  diff +2.6 [+1.0, +4.5] n=310
+
+== features behind the risks (HTML emails) ==
+Outlook Windows layout: HTML {'css-transform': 3, 'css-left-right-top-bottom': 7, 'css-position': 8, 'css-align-items': 13, 'css-display-flex': 16, 'css-gap': 7, 'css-justify-content': 6, 'css-float': 2, 'css-flex-wrap': 1}  MJML {'css-align-items': 1, 'css-display-flex': 1, 'css-justify-content': 1}
+Outlook Windows content: HTML {'css-linear-gradient': 28, 'css-pseudo-element-before': 8, 'html-button-submit': 1, 'html-form': 1, 'html-svg': 1}  MJML {'css-linear-gradient': 1}
+Gmail web layout: HTML {'css-transform': 3, 'css-left-right-top-bottom': 7, 'css-position': 8, 'css-align-items': 13, 'css-justify-content': 6, 'css-flex-wrap': 1}  MJML {'css-align-items': 1, 'css-justify-content': 1}
+Gmail web content: HTML {'css-pseudo-element-before': 8, 'html-svg': 1}  MJML {}
+
+== by model family (HTML emails): risk and fallbacks ==
+Claude 5.x  n=104 outlook layout 1, content 0, gmail layout 0, no-table 0, mso 14, mq 74 | MJML outlook layout 0 content 0
+Claude 4.x  n= 52 outlook layout 26, content 32, gmail layout 24, no-table 39, mso 1, mq 18 | MJML outlook layout 1 content 1
+GPT-6       n=156 outlook layout 1, content 0, gmail layout 0, no-table 0, mso 0, mq 18 | MJML outlook layout 0 content 0
+
+== claims and coverage (paired) ==
+opus-5.5     invented_real  2.774 vs 2.790  diff -0.016 [-0.271, +0.258] n=310
+opus-5.5     placeholders   0.142 vs 0.084  diff +0.058 [+0.016, +0.106] n=310
+opus-5.5     coverage       0.993 vs 0.995  diff -0.002 [-0.006, +0.002] n=310
+opus-5.5     invented set S: 6.63 vs 6.55  diff +0.08 [-0.86, +1.07] n=71
+opus-5.5     invented set F: 1.63 vs 1.67  diff -0.05 [-0.25, +0.15] n=239
+gpt-6.1-sol  invented_real  3.148 vs 3.200  diff -0.052 [-0.355, +0.235] n=310
+gpt-6.1-sol  placeholders   0.132 vs 0.081  diff +0.052 [+0.013, +0.094] n=310
+gpt-6.1-sol  coverage       0.972 vs 0.969  diff +0.003 [-0.003, +0.008] n=310
+gpt-6.1-sol  invented set S: 5.76 vs 6.24  diff -0.48 [-1.42, +0.38] n=71
+gpt-6.1-sol  invented set F: 2.37 vs 2.30  diff +0.08 [-0.18, +0.33] n=239
+
+== judges ==
+Opus 5.5: 310 pairs — HTML 139, MJML 121, split 50, tie 0
+   set S: {'html': 36, 'split': 16, 'mjml': 19}
+   set F: {'html': 103, 'split': 34, 'mjml': 102}
+   Claude 5.x: {'html': 59, 'split': 25, 'mjml': 19}
+   Claude 4.x: {'html': 36, 'mjml': 8, 'split': 8}
+   GPT-6: {'html': 44, 'mjml': 94, 'split': 17}
+   HTML risky (Outlook layout/content or flag): {'html': 38, 'mjml': 8, 'split': 6}  n=52   HTML safe: {'html': 101, 'split': 44, 'mjml': 113} n=258
+   HTML with no table layout: {'html': 30, 'split': 4, 'mjml': 5}
+   design         7.95 vs 7.63  diff +0.32 [+0.20, +0.44] n=310
+   readability    8.15 vs 7.93  diff +0.22 [+0.13, +0.32] n=310
+   briefCoverage  9.50 vs 9.44  diff +0.06 [-0.02, +0.15] n=310
+   phone          8.30 vs 8.35  diff -0.05 [-0.16, +0.07] n=310
+   overall        7.91 vs 7.68  diff +0.23 [+0.09, +0.37] n=310
+GPT-6.1 Sol: 310 pairs — HTML 133, MJML 132, split 45, tie 0
+   set S: {'split': 13, 'html': 32, 'mjml': 26}
+   set F: {'html': 101, 'mjml': 106, 'split': 32}
+   Claude 5.x: {'split': 15, 'mjml': 34, 'html': 54}
+   Claude 4.x: {'html': 35, 'mjml': 11, 'split': 6}
+   GPT-6: {'split': 24, 'html': 44, 'mjml': 87}
+   HTML risky (Outlook layout/content or flag): {'html': 35, 'mjml': 11, 'split': 6}  n=52   HTML safe: {'split': 39, 'mjml': 121, 'html': 98} n=258
+   HTML with no table layout: {'html': 26, 'split': 6, 'mjml': 7}
+   design         8.62 vs 8.48  diff +0.14 [+0.05, +0.24] n=310
+   readability    8.61 vs 8.45  diff +0.16 [+0.06, +0.26] n=310
+   briefCoverage  9.79 vs 9.77  diff +0.02 [-0.04, +0.08] n=310
+   phone          8.76 vs 8.88  diff -0.12 [-0.22, -0.03] n=310
+   overall        8.45 vs 8.41  diff +0.04 [-0.08, +0.15] n=310
+agreement: both judged 310; both decided 224; agree 198
+
+== per model (pooled) ==
+claude-haiku-4-5       n=26 tok  1872/ 1651 $ 0.010/0.008 HTML: table 0 mso 0 mq 0 outl-lay 10 outl-cont 17 | opus {'html': 21, 'split': 2, 'mjml': 3} gpt {'html': 18, 'mjml': 4, 'split': 4}
+claude-sonnet-4-6      n=26 tok  3942/ 3656 $ 0.060/0.055 HTML: table 13 mso 1 mq 18 outl-lay 16 outl-cont 15 | opus {'mjml': 5, 'split': 6, 'html': 15} gpt {'mjml': 7, 'split': 2, 'html': 17}
+claude-fable-5-1       n=26 tok  4576/ 2623 $ 0.231/0.133 HTML: table 26 mso 2 mq 22 outl-lay 0 outl-cont 0 | opus {'html': 15, 'split': 6, 'mjml': 5} gpt {'split': 6, 'mjml': 12, 'html': 8}
+claude-haiku-5-5       n=25 tok  2534/ 2016 $ 0.001/0.001 HTML: table 25 mso 0 mq 0 outl-lay 0 outl-cont 0 | opus {'split': 7, 'html': 15, 'mjml': 3} gpt {'mjml': 6, 'html': 19}
+claude-opus-5-5        n=26 tok  5098/ 3112 $ 0.103/0.063 HTML: table 26 mso 6 mq 26 outl-lay 0 outl-cont 0 | opus {'html': 9, 'split': 9, 'mjml': 8} gpt {'html': 11, 'mjml': 13, 'split': 2}
+claude-sonnet-5-5      n=26 tok  3731/ 2206 $ 0.038/0.022 HTML: table 26 mso 6 mq 26 outl-lay 1 outl-cont 0 | opus {'html': 20, 'split': 3, 'mjml': 3} gpt {'html': 16, 'split': 7, 'mjml': 3}
+gpt-6-astra__high      n=26 tok  1857/ 1791 $ 0.094/0.091 HTML: table 26 mso 0 mq 3 outl-lay 0 outl-cont 0 | opus {'html': 2, 'mjml': 20, 'split': 4} gpt {'split': 4, 'mjml': 21, 'html': 1}
+gpt-6-astra__low       n=26 tok  1250/ 1077 $ 0.064/0.055 HTML: table 26 mso 0 mq 0 outl-lay 0 outl-cont 0 | opus {'html': 1, 'mjml': 21, 'split': 4} gpt {'html': 3, 'split': 3, 'mjml': 20}
+gpt-6-luna__high       n=25 tok  1839/ 1670 $ 0.001/0.001 HTML: table 25 mso 0 mq 6 outl-lay 0 outl-cont 0 | opus {'html': 18, 'mjml': 6, 'split': 1} gpt {'html': 14, 'mjml': 5, 'split': 6}
+gpt-6-luna__low        n=26 tok  1389/ 1036 $ 0.001/0.001 HTML: table 26 mso 0 mq 2 outl-lay 1 outl-cont 0 | opus {'html': 19, 'mjml': 5, 'split': 2} gpt {'html': 19, 'mjml': 5, 'split': 2}
+gpt-6.1-sol__high      n=26 tok  1773/ 1752 $ 0.018/0.018 HTML: table 26 mso 0 mq 6 outl-lay 0 outl-cont 0 | opus {'mjml': 23, 'html': 1, 'split': 2} gpt {'mjml': 21, 'split': 3, 'html': 2}
+gpt-6.1-sol__low       n=26 tok  1248/ 1104 $ 0.013/0.011 HTML: table 26 mso 0 mq 0 outl-lay 0 outl-cont 0 | opus {'mjml': 19, 'split': 4, 'html': 3} gpt {'split': 6, 'mjml': 15, 'html': 5}

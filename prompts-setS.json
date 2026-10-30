@@ -1,0 +1,47 @@
+[
+ {
+  "id": "spa-reminder",
+  "title": "Day spa — appointment reminder",
+  "prompt": "Appointment reminder email for Serenity Day Spa. Remind the client about their 60-minute deep tissue massage tomorrow at 2:00 PM. Include the address (418 Willow Lane, Austin TX), what to expect on arrival (arrive 15 minutes early, robe and slippers provided), a button to reschedule or cancel, and our 24-hour cancellation policy. Calm, reassuring tone."
+ },
+ {
+  "id": "skin-winback",
+  "title": "Skincare studio — win-back offer",
+  "prompt": "Win-back email for Glow Skin Studio, a facial and skincare clinic. It goes to clients who haven't booked in 3 months: offer 20% off their next facial, valid for 14 days. Introduce our new HydraFacial treatment with its main benefits, include a short client testimonial, and a Book now button."
+ },
+ {
+  "id": "wellness-giftcard",
+  "title": "Wellness center — holiday gift cards",
+  "prompt": "Holiday gift card promotion for Lotus Wellness Center (yoga classes, massage and acupuncture). Buy a $100 gift card, get a $20 bonus card for yourself. Show three gift ideas with prices, a Buy a gift card button, and the deadline: December 24. Warm, festive but not pushy tone."
+ },
+ {
+  "id": "salon-welcome",
+  "title": "Hair salon — new client welcome",
+  "prompt": "Welcome email for new clients of Maple & Moss Hair Salon, sent after their first visit. Thank them, introduce their stylist (Jenna, 8 years of color experience), share 3 tips for keeping their new color fresh, offer 15% off their second visit within 30 days, and include a Book your next appointment button. Friendly, personal tone."
+ },
+ {
+  "id": "medspa-aftercare",
+  "title": "Med spa — post-treatment aftercare",
+  "prompt": "Aftercare email from Radiance Med Spa, sent the evening after a client's first Botox treatment. Do's and don'ts for the first 24 hours and the first 2 weeks, what's normal (mild redness, small bumps) versus when to call us, a reminder that results appear in 3â14 days, a button to book the free 2-week follow-up, and the clinic phone number (512) 555-0147. Clear, caring, professional."
+ },
+ {
+  "id": "yoga-newsletter",
+  "title": "Yoga studio — monthly newsletter",
+  "prompt": "November newsletter for Still Water Yoga Studio. A short note from the founder, new schedule highlights (Sunrise Vinyasa Tue/Thu 6:30 AM, Restorative Yoga Fri 7 PM, new Prenatal Yoga Sat 10 AM), a teacher spotlight, a winter workshop on December 7 ($45, limited to 20 spots) with a Reserve your spot button, and a member tip on building a home practice. Calm, community feel."
+ },
+ {
+  "id": "drunkelephant-winback",
+  "title": "Drunk Elephant — lapsed customer, routine refresh",
+  "prompt": "Email from Drunk Elephant to customers who haven't ordered in six months. Invite them to rebuild their routine around Protini Polypeptide Cream, explain the 'clean-compatible' idea in one line, mention free shipping on orders over $50, and offer a Rebuild my routine button. Confident, playful, a little cheeky, no hard sell."
+ },
+ {
+  "id": "glossier-launch",
+  "title": "Glossier — product launch",
+  "prompt": "Launch email from Glossier announcing a new shade of Cloud Paint called Haze, a dusty mauve. Explain who it suits, how to apply it with fingers, mention it's $24 and ships free over $40, and include a Shop Haze button and a second link to the full Cloud Paint range. Playful, friendly Glossier tone."
+ },
+ {
+  "id": "headspace-reminder",
+  "title": "Headspace — come back to your practice",
+  "prompt": "Email from Headspace to members who haven't meditated in two weeks. Welcome them back without guilt, suggest a 3-minute breathing exercise to restart, mention the new Sleep by Headspace wind-down series, and include a Start a 3-minute session button. Warm, light, encouraging."
+ }
+]

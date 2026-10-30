@@ -1,0 +1,104 @@
+{
+ "raw": {
+  "pairs": 24,
+  "verdicts": {
+   "html": 17,
+   "split": 6,
+   "mjml": 1
+  },
+  "mean_scores": {
+   "mjml": {
+    "design": 7.583333333333333,
+    "readability": 7.770833333333333,
+    "briefCoverage": 9.770833333333334,
+    "phone": 8.25,
+    "overall": 7.645833333333333
+   },
+   "html": {
+    "design": 8.520833333333334,
+    "readability": 8.5625,
+    "briefCoverage": 9.833333333333334,
+    "phone": 8.354166666666666,
+    "overall": 8.4375
+   }
+  },
+  "emails": 24,
+  "mso": 1.0,
+  "media_query": 1.0,
+  "outlook_layout": 0.0,
+  "outlook_content": 0.0,
+  "gmail_layout": 0.0,
+  "cost": 0.0638082125,
+  "tokens": 2864.75,
+  "words": 301.2916666666667,
+  "phone_scroll": 0
+ },
+ "raw-mjml-styled": {
+  "pairs": 24,
+  "verdicts": {
+   "split": 5,
+   "html": 14,
+   "mjml": 5
+  },
+  "mean_scores": {
+   "mjml": {
+    "design": 7.979166666666667,
+    "readability": 7.9375,
+    "briefCoverage": 9.916666666666666,
+    "phone": 7.5625,
+    "overall": 7.6875
+   },
+   "html": {
+    "design": 8.208333333333334,
+    "readability": 8.375,
+    "briefCoverage": 9.791666666666666,
+    "phone": 8.229166666666666,
+    "overall": 8.1875
+   }
+  },
+  "emails": 24,
+  "mso": 1.0,
+  "media_query": 1.0,
+  "outlook_layout": 0.0,
+  "outlook_content": 0.0,
+  "gmail_layout": 0.0,
+  "cost": 0.06946690000000001,
+  "tokens": 3098.5416666666665,
+  "words": 287.2083333333333,
+  "phone_scroll": 0
+ },
+ "raw-mjml-styled-v2": {
+  "pairs": 24,
+  "verdicts": {
+   "split": 4,
+   "html": 15,
+   "mjml": 5
+  },
+  "mean_scores": {
+   "mjml": {
+    "design": 7.791666666666667,
+    "readability": 7.9375,
+    "briefCoverage": 9.666666666666666,
+    "phone": 8.3125,
+    "overall": 7.8125
+   },
+   "html": {
+    "design": 8.1875,
+    "readability": 8.416666666666666,
+    "briefCoverage": 9.875,
+    "phone": 8.166666666666666,
+    "overall": 8.25
+   }
+  },
+  "emails": 24,
+  "mso": 1.0,
+  "media_query": 1.0,
+  "outlook_layout": 0.0,
+  "outlook_content": 0.0,
+  "gmail_layout": 0.0,
+  "cost": 0.06882551666666667,
+  "tokens": 2892.5416666666665,
+  "words": 278.1666666666667,
+  "phone_scroll": 0
+ }
+}

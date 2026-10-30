@@ -1,0 +1,102 @@
+[
+ {
+  "id": "s01",
+  "title": "fitness-evaluation \u2014 strength gym",
+  "prompt": "Write an email for new leads of my strength gym offering a free fitness evaluation to start personal training.\n\nDetails about the business:\nBusiness: Iron Harbor Strength, a strength gym in Portland, Maine. The free evaluation takes 45 minutes: a movement screen, a strength baseline and a goals conversation with coach Dana Ruiz. After it, clients can start an 8-session starter pack for $320. The offer is valid until 30 November. Book at ironharbor.com/eval. Open Monday to Saturday, 6 am to 9 pm."
+ },
+ {
+  "id": "s02",
+  "title": "fitness-evaluation \u2014 CrossFit box",
+  "prompt": "Write an email for new leads of my CrossFit box offering a free fitness evaluation to start personal training.\n\nDetails about the business:\nBusiness: Ridgeline CrossFit in Boulder, Colorado. The free evaluation is a 30-minute one-on-one with head coach Marcus Bell: mobility check, a short benchmark workout and a training plan. After it, the first month of unlimited classes costs $149 instead of $189. The offer is for the first 20 sign-ups this month. Reply to this email or call (303) 555-0142 to book."
+ },
+ {
+  "id": "s03",
+  "title": "fitness-evaluation \u2014 personal training studio",
+  "prompt": "Write an email for new leads of my personal training studio offering a free fitness evaluation to start personal training.\n\nDetails about the business:\nBusiness: Studio Kinesis, a private personal training studio in Austin, Texas, with three trainers and no group classes. The free evaluation is 60 minutes and includes a posture assessment and body-composition scan. Packages start at $75 per session for a 10-session block. Evaluations run on weekday mornings only. Book through studiokinesis.com/start."
+ },
+ {
+  "id": "s04",
+  "title": "fitness-evaluation \u2014 community fitness centre",
+  "prompt": "Write an email for new leads of my community fitness centre offering a free fitness evaluation to start personal training.\n\nDetails about the business:\nBusiness: Maple Grove Community Fitness Centre in Madison, Wisconsin, a non-profit centre with a pool and a seniors programme. The free evaluation is 40 minutes with a certified trainer and includes a balance test. Personal training is $45 per session for members; membership is $35 a month. Evaluations are available until 15 December. Sign up at the front desk or at maplegrovefit.org."
+ },
+ {
+  "id": "s05",
+  "title": "bakery-welcome \u2014 sourdough bakery",
+  "prompt": "Write a welcome email for new subscribers to my sourdough bakery's newsletter, with an offer for their first order.\n\nDetails about the business:\nBusiness: Crumb & Kiln, a sourdough bakery in Asheville, North Carolina. Signature loaves: country sourdough, seeded rye and a Friday-only olive loaf. First-order offer: a free cinnamon knot with any order over $12, code KILNHELLO, valid for 14 days. Pickup only, Wednesday to Sunday, 7 am to 2 pm."
+ },
+ {
+  "id": "s06",
+  "title": "bakery-welcome \u2014 French patisserie",
+  "prompt": "Write a welcome email for new subscribers to my French patisserie's newsletter, with an offer for their first order.\n\nDetails about the business:\nBusiness: Maison Lavande, a French patisserie in Savannah, Georgia, run by pastry chef Claire Moreau. Known for its pistachio \u00e9clairs, lemon tarts and seasonal entremets. First-order offer: 15% off online orders with code BIENVENUE, until the end of the month. Local delivery within 5 miles on Saturdays; in-store Tuesday to Sunday."
+ },
+ {
+  "id": "s07",
+  "title": "bakery-welcome \u2014 neighbourhood caf\u00e9-bakery",
+  "prompt": "Write a welcome email for new subscribers to my neighbourhood caf\u00e9-bakery's newsletter, with an offer for their first order.\n\nDetails about the business:\nBusiness: Corner Loaf Caf\u00e9 on Elm Street in Burlington, Vermont, a caf\u00e9 and bakery with 20 seats. Popular items: breakfast sandwiches, morning buns and local roast coffee. First-order offer: a free drip coffee with any pastry, show this email at the counter, valid this week only. Open daily 6:30 am to 4 pm."
+ },
+ {
+  "id": "s08",
+  "title": "bakery-welcome \u2014 gluten-free bakery",
+  "prompt": "Write a welcome email for new subscribers to my gluten-free bakery's newsletter, with an offer for their first order.\n\nDetails about the business:\nBusiness: Golden Grain Free, a dedicated gluten-free bakery in Sacramento, California; everything is baked in a certified gluten-free kitchen. Best sellers: brown-butter brownies, sandwich bread and almond-flour muffins. First-order offer: $5 off orders over $25 with code GFWELCOME. Ships nationwide on Mondays and Tuesdays."
+ },
+ {
+  "id": "s09",
+  "title": "salon-followup \u2014 nail studio",
+  "prompt": "Write a follow-up email to clients after their appointment at my nail studio, asking for a review and inviting them to rebook.\n\nDetails about the business:\nBusiness: Lacquer Room, a nail studio in Chicago, Illinois. Reviews go to the studio's Google page. Recommended rebooking: every 3 weeks for gel manicures. Rebooking perk: free nail art on one nail when rebooked within 7 days. Aftercare tip: apply cuticle oil daily. Phone (312) 555-0198."
+ },
+ {
+  "id": "s10",
+  "title": "salon-followup \u2014 hair salon",
+  "prompt": "Write a follow-up email to clients after their appointment at my hair salon, asking for a review and inviting them to rebook.\n\nDetails about the business:\nBusiness: Thread & Shear, a hair salon in Minneapolis, Minnesota, with five stylists. Reviews go to the salon's Yelp page. Recommended rebooking: 6 to 8 weeks for cuts, 8 to 10 weeks for colour. Rebooking perk: a free deep-conditioning treatment with the next booking made within 14 days. Book online at threadandshear.com."
+ },
+ {
+  "id": "s11",
+  "title": "salon-followup \u2014 brow and lash bar",
+  "prompt": "Write a follow-up email to clients after their appointment at my brow and lash bar, asking for a review and inviting them to rebook.\n\nDetails about the business:\nBusiness: Arch & Lash in Scottsdale, Arizona. Reviews go to the studio's Google page. Recommended rebooking: lash fills every 2 to 3 weeks, brow lamination every 6 weeks. Rebooking perk: $10 off the next fill if booked before leaving the studio or within 48 hours. Aftercare: keep lashes dry for 24 hours."
+ },
+ {
+  "id": "s12",
+  "title": "salon-followup \u2014 skin care clinic",
+  "prompt": "Write a follow-up email to clients after their appointment at my skin care clinic, asking for a review and inviting them to rebook.\n\nDetails about the business:\nBusiness: Clear Coast Skin Clinic in San Diego, California, led by licensed esthetician Priya Nair. Reviews go to the clinic's Google page. Recommended rebooking: a facial every 4 weeks. Rebooking perk: a complimentary LED add-on with the next facial booked within 10 days. Aftercare: daily SPF 30 or higher."
+ },
+ {
+  "id": "s13",
+  "title": "saas-update \u2014 invoicing app for freelancers",
+  "prompt": "Write our monthly product update email for customers of our invoicing app for freelancers.\n\nDetails about the business:\nProduct: Billwise. New this month: recurring invoices on a custom schedule; automatic late-payment reminders after 3, 7 and 14 days; invoices in 12 more currencies. Fixed: PDF export cut off long line items. Full changelog at billwise.app/changelog. Live walkthrough webinar on 12 November at 11 am ET."
+ },
+ {
+  "id": "s14",
+  "title": "saas-update \u2014 team scheduling tool",
+  "prompt": "Write our monthly product update email for customers of our team scheduling tool.\n\nDetails about the business:\nProduct: Shiftly. New this month: shift swaps that managers approve in one tap; a time-off calendar that syncs with Google Calendar; open shifts posted to Slack. Fixed: time zones for teams across two regions. Changelog at shiftly.io/whats-new. Office hours every Thursday at 2 pm ET."
+ },
+ {
+  "id": "s15",
+  "title": "saas-update \u2014 website analytics tool",
+  "prompt": "Write our monthly product update email for customers of our website analytics tool.\n\nDetails about the business:\nProduct: Lumen Analytics, a cookie-free analytics tool. New this month: funnel reports; a weekly email digest; filtering by UTM campaign. Fixed: bounce rate counted single-page sessions twice. Changelog at lumenanalytics.com/changelog. Pricing is unchanged."
+ },
+ {
+  "id": "s16",
+  "title": "saas-update \u2014 customer support inbox",
+  "prompt": "Write our monthly product update email for customers of our customer support inbox.\n\nDetails about the business:\nProduct: Helpwell, a shared inbox for support teams. New this month: saved replies with variables; SLA timers on every conversation; a Shopify order panel inside conversations. Fixed: attachments over 10 MB failed to upload. Changelog at helpwell.com/updates. Beta sign-up for AI reply drafts is open."
+ },
+ {
+  "id": "s17",
+  "title": "retail-sale \u2014 independent bookstore",
+  "prompt": "Write an email announcing our seasonal sale at my independent bookstore.\n\nDetails about the business:\nBusiness: Paper Lantern Books in Portland, Oregon. Autumn sale: 20% off all used books and 10% off new hardcovers, 1 to 10 November. Excludes gift cards and pre-orders. In store only, 412 SE Hawthorne Blvd. Late-night shopping until 10 pm on Friday 7 November with a reading by a local poet."
+ },
+ {
+  "id": "s18",
+  "title": "retail-sale \u2014 plant shop",
+  "prompt": "Write an email announcing our seasonal sale at my plant shop.\n\nDetails about the business:\nBusiness: Fern & Fig, a plant shop in Richmond, Virginia. Autumn sale: 25% off all pots and planters, buy two houseplants and get a third free (lowest price free), 7 to 16 November. Online and in store. Free repotting with any plant bought during the sale. 1820 W Main St."
+ },
+ {
+  "id": "s19",
+  "title": "retail-sale \u2014 outdoor gear store",
+  "prompt": "Write an email announcing our seasonal sale at my outdoor gear store.\n\nDetails about the business:\nBusiness: Summit Supply Co. in Bozeman, Montana. End-of-season sale: up to 40% off summer camping gear, 15% off winter jackets, 3 to 12 November. Members get early access on 2 November. In store and online at summitsupply.co. Gear rental returns accepted until 15 November."
+ },
+ {
+  "id": "s20",
+  "title": "retail-sale \u2014 home goods boutique",
+  "prompt": "Write an email announcing our seasonal sale at my home goods boutique.\n\nDetails about the business:\nBusiness: Linen & Loom, a home goods boutique in Charleston, South Carolina. Autumn sale: 30% off table linens and throws, 15% off ceramics, 5 to 9 November. Excludes the new holiday collection. Free gift wrapping all month. In store at 88 King St and online at linenandloom.com."
+ }
+]
