@@ -55,3 +55,13 @@ compatibility)? And does a browser-screenshot judge's preference follow the comp
 
 Support is looked up, not rendered in real clients; "unsupported" with a fallback degrades rather than breaks. Database
 hand-maintained and dated. One instruction, no images/brand. Judges are models. Prices on one day.
+
+## Pre-registered follow-ups (8 to 9 November 2026)
+
+`preregistration-2026-11-08.md` (hypotheses, samples, decision rules; committed before any run) and its amendment; `preregistration-e7-human-panel.md`.
+Shared code `judgelib.py` (same instruction, schema, tiles and both orders as the original judges; OpenRouter). E1 `judge-warned.py` (generic / specific
+warning about classic Outlook), E3 `inject-gradient.py` (one gradient into the first coloured block of 47 safe free-HTML emails; `injected-log.json`,
+`injected-audit.json`) + `judge-injected.py`, E4 `judge-third.py` (Gemini 3.1 Pro preview), E5 re-run of Claude Sonnet 4.6 and GPT-6 Astra high on the
+20 set-F briefs (`results-R.json`, `e5-compare.py` -> `e5-compare.txt`), E6 `e6-baseline-regression.py` -> `.txt`. Results: `analyze-followups.py` ->
+`followups.txt`; per-pair verdicts of every follow-up run: `followups.csv` (`export-followups.py`). Paths in the scripts are placeholders
+(`<repo-root>`, `<runs>`, `<data-repo>`); the generated emails and screenshots are not in this package.

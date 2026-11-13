@@ -1,0 +1,14 @@
+
+=== claude-sonnet-4-6 ===
+original (29 Oct)  HTML n=20: Outlook layout/content risk 18, flags 14, MSO 0, media query 13, table 9, tokens 3641, words 319.1
+                   MJML n=20: Outlook risk 0, tokens 3444, words 367.1; HTML/MJML token ratio 1.06
+re-run (8 Nov)     HTML n=20: Outlook layout/content risk 13, flags 15, MSO 0, media query 14, table 6, tokens 3401, words 307.9
+                   MJML n=20: Outlook risk 0, tokens 3209, words 351.0; HTML/MJML token ratio 1.06
+risky class (HTML arm) agrees between runs on 17 of 20 briefs; original risky 19, re-run risky 18
+
+=== gpt-6-astra__high ===
+original (29 Oct)  HTML n=20: Outlook layout/content risk 0, flags 0, MSO 0, media query 0, table 20, tokens 1572, words 163.5
+                   MJML n=20: Outlook risk 0, tokens 1581, words 166.7; HTML/MJML token ratio 0.99
+re-run (8 Nov)     HTML n=20: Outlook layout/content risk 0, flags 0, MSO 0, media query 0, table 20, tokens 1607, words 161.6
+                   MJML n=20: Outlook risk 0, tokens 1608, words 168.8; HTML/MJML token ratio 1.00
+risky class (HTML arm) agrees between runs on 20 of 20 briefs; original risky 0, re-run risky 0

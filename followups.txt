@@ -1,0 +1,20 @@
+=== E1: judge told about the target client (52 risky pairs, browser screenshots) ===
+[opus] browser (original): HTML 38/52 = 73% [60, 83]; counts {'html': 38, 'mjml': 8, 'split': 6, 'missing': 0}
+[opus] warned generic: HTML 20/52 = 38% [26, 52]; counts {'html': 20, 'mjml': 26, 'split': 6, 'missing': 0}; McNemar html->not 19, not->html 1, p=0.0000
+[opus] warned specific: HTML 2/52 = 4% [1, 13]; counts {'html': 2, 'mjml': 49, 'split': 1, 'missing': 0}; McNemar html->not 36, not->html 0, p=0.0000
+[opus] safe stratum (258): HTML 101/258 = 39% [33, 45]
+[gpt] browser (original): HTML 35/52 = 67% [54, 78]; counts {'html': 35, 'mjml': 11, 'split': 6, 'missing': 0}
+[gpt] warned generic: HTML 18/52 = 35% [23, 48]; counts {'html': 18, 'mjml': 28, 'split': 6, 'missing': 0}; McNemar html->not 19, not->html 2, p=0.0002
+[gpt] warned specific: HTML 0/52 = 0% [0, 7]; counts {'html': 0, 'mjml': 51, 'split': 1, 'missing': 0}; McNemar html->not 35, not->html 0, p=0.0000
+[gpt] safe stratum (258): HTML 98/258 = 38% [32, 44]
+
+=== E3: gradient injected into safe free-HTML emails (judged against the unchanged MJML) ===
+[opus] before: HTML 20/47 = 43% [30, 57] {'html': 20, 'mjml': 22, 'split': 5, 'missing': 0}; after: HTML 20/47 = 43% [30, 57] {'html': 20, 'mjml': 22, 'split': 5, 'missing': 0}; McNemar html->not 2, not->html 2, p=1.0000
+[gpt] before: HTML 15/47 = 32% [20, 46] {'html': 15, 'mjml': 25, 'split': 7, 'missing': 0}; after: HTML 14/47 = 30% [19, 44] {'html': 14, 'mjml': 23, 'split': 10, 'missing': 0}; McNemar html->not 1, not->html 0, p=1.0000
+
+=== E4: third judge (Gemini 3.1 Pro preview), risky vs safe sample ===
+gemini risky: HTML 31/52 = 60% [46, 72] {'html': 31, 'mjml': 8, 'split': 13, 'missing': 0}; safe sample: HTML 21/52 = 40% [28, 54] {'html': 21, 'mjml': 18, 'split': 13, 'missing': 0}; Fisher OR 2.18 p=0.0771
+gemini, decided pairs only (secondary): risky 31:8, safe 21:18; OR 3.32 p=0.0297; splits risky 13, safe 13
+agreement gemini vs opus on stable verdicts: 62/72 = 86%, kappa 0.69
+agreement gemini vs gpt on stable verdicts: 55/66 = 83%, kappa 0.64
+gemini original-judge comparison on the same safe sample: opus HTML 20/52 = 38% [26, 52], gpt HTML 16/52 = 31% [20, 44]

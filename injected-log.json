@@ -1,0 +1,497 @@
+[
+ {
+  "pair": "F/s01/gpt-6-astra__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#172c3d",
+  "colour2": "#122230",
+  "lightness": 0.165,
+  "position": 837
+ },
+ {
+  "pair": "F/s01/gpt-6.1-sol__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#172d3a",
+  "colour2": "#12232d",
+  "lightness": 0.159,
+  "position": 856
+ },
+ {
+  "pair": "F/s02/claude-opus-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#1f2a2e",
+  "colour2": "#182124",
+  "lightness": 0.151,
+  "position": 1585
+ },
+ {
+  "pair": "F/s02/claude-sonnet-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#1a1d21",
+  "colour2": "#14171a",
+  "lightness": 0.116,
+  "position": 1639
+ },
+ {
+  "pair": "F/s02/gpt-6-luna__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#173b4b",
+  "colour2": "#122e3b",
+  "lightness": 0.192,
+  "position": 1001
+ },
+ {
+  "pair": "F/s03/claude-fable-5-1",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#1f2a28",
+  "colour2": "#18211f",
+  "lightness": 0.143,
+  "position": 1493
+ },
+ {
+  "pair": "F/s03/claude-haiku-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 5,
+  "colour": "#1f3a34",
+  "colour2": "#182d29",
+  "lightness": 0.175,
+  "position": 729
+ },
+ {
+  "pair": "F/s03/gpt-6-astra__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#173f35",
+  "colour2": "#123129",
+  "lightness": 0.169,
+  "position": 843
+ },
+ {
+  "pair": "F/s03/gpt-6-luna__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#173b32",
+  "colour2": "#122e27",
+  "lightness": 0.161,
+  "position": 928
+ },
+ {
+  "pair": "F/s03/gpt-6.1-sol__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 11,
+  "colour": "#245d46",
+  "colour2": "#1c4937",
+  "lightness": 0.253,
+  "position": 2315
+ },
+ {
+  "pair": "F/s04/claude-opus-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#2f5d3a",
+  "colour2": "#25492d",
+  "lightness": 0.275,
+  "position": 1850
+ },
+ {
+  "pair": "F/s04/gpt-6.1-sol__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#245c40",
+  "colour2": "#1c4832",
+  "lightness": 0.251,
+  "position": 860
+ },
+ {
+  "pair": "F/s05/claude-haiku-5-5",
+  "injected": true,
+  "tag": "table",
+  "tag_index": 10,
+  "colour": "#f3e6d3",
+  "colour2": "#deb985",
+  "lightness": 0.89,
+  "position": 2302
+ },
+ {
+  "pair": "F/s05/gpt-6-luna__high",
+  "injected": true,
+  "tag": "table",
+  "tag_index": 11,
+  "colour": "#f3e7d8",
+  "colour2": "#dbb78b",
+  "lightness": 0.9,
+  "position": 2067
+ },
+ {
+  "pair": "F/s06/gpt-6-astra__low",
+  "injected": false,
+  "reason": "no block with a non-white background colour"
+ },
+ {
+  "pair": "F/s06/gpt-6-luna__low",
+  "injected": true,
+  "tag": "div",
+  "tag_index": 9,
+  "colour": "#e8ddd2",
+  "colour2": "#c7ac92",
+  "lightness": 0.867,
+  "position": 1515
+ },
+ {
+  "pair": "F/s07/gpt-6-astra__low",
+  "injected": false,
+  "reason": "no block with a non-white background colour"
+ },
+ {
+  "pair": "F/s08/gpt-6-astra__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#e9bd62",
+  "colour2": "#e0a222",
+  "lightness": 0.649,
+  "position": 949
+ },
+ {
+  "pair": "F/s08/gpt-6-astra__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#eed9a6",
+  "colour2": "#e0b95b",
+  "lightness": 0.792,
+  "position": 836
+ },
+ {
+  "pair": "F/s08/gpt-6.1-sol__high",
+  "injected": false,
+  "reason": "no block with a non-white background colour"
+ },
+ {
+  "pair": "F/s09/gpt-6-astra__low",
+  "injected": false,
+  "reason": "no block with a non-white background colour"
+ },
+ {
+  "pair": "F/s09/gpt-6.1-sol__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 11,
+  "colour": "#773c52",
+  "colour2": "#5d2f40",
+  "lightness": 0.351,
+  "position": 2178
+ },
+ {
+  "pair": "F/s10/claude-fable-5-1",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#2b2b2b",
+  "colour2": "#222222",
+  "lightness": 0.169,
+  "position": 1618
+ },
+ {
+  "pair": "F/s11/claude-haiku-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 12,
+  "colour": "#b08d7a",
+  "colour2": "#926b57",
+  "lightness": 0.584,
+  "position": 2346
+ },
+ {
+  "pair": "F/s11/claude-sonnet-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#2f2622",
+  "colour2": "#251e1b",
+  "lightness": 0.159,
+  "position": 1361
+ },
+ {
+  "pair": "F/s11/gpt-6-luna__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 11,
+  "colour": "#806b60",
+  "colour2": "#64534b",
+  "lightness": 0.439,
+  "position": 1803
+ },
+ {
+  "pair": "F/s11/gpt-6.1-sol__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 11,
+  "colour": "#49362f",
+  "colour2": "#392a25",
+  "lightness": 0.235,
+  "position": 2110
+ },
+ {
+  "pair": "F/s12/claude-sonnet-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#2a7f84",
+  "colour2": "#216367",
+  "lightness": 0.341,
+  "position": 1317
+ },
+ {
+  "pair": "F/s12/gpt-6-astra__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 8,
+  "colour": "#27675a",
+  "colour2": "#1e5046",
+  "lightness": 0.278,
+  "position": 1982
+ },
+ {
+  "pair": "F/s12/gpt-6-luna__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 11,
+  "colour": "#39736c",
+  "colour2": "#2c5a54",
+  "lightness": 0.337,
+  "position": 2131
+ },
+ {
+  "pair": "F/s13/gpt-6-astra__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 14,
+  "colour": "#3347b0",
+  "colour2": "#283789",
+  "lightness": 0.445,
+  "position": 4105
+ },
+ {
+  "pair": "F/s13/gpt-6-luna__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#133b35",
+  "colour2": "#0f2e29",
+  "lightness": 0.153,
+  "position": 948
+ },
+ {
+  "pair": "F/s15/gpt-6.1-sol__low",
+  "injected": false,
+  "reason": "no block with a non-white background colour"
+ },
+ {
+  "pair": "F/s16/gpt-6-luna__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#173b5e",
+  "colour2": "#122e49",
+  "lightness": 0.229,
+  "position": 961
+ },
+ {
+  "pair": "F/s17/claude-fable-5-1",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 5,
+  "colour": "#b5502e",
+  "colour2": "#8d3e24",
+  "lightness": 0.445,
+  "position": 732
+ },
+ {
+  "pair": "F/s17/claude-opus-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 8,
+  "colour": "#5b2a1a",
+  "colour2": "#472114",
+  "lightness": 0.229,
+  "position": 2642
+ },
+ {
+  "pair": "F/s17/claude-sonnet-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#2f2a24",
+  "colour2": "#25211c",
+  "lightness": 0.163,
+  "position": 1518
+ },
+ {
+  "pair": "F/s18/claude-fable-5-1",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 8,
+  "colour": "#2f5d3a",
+  "colour2": "#25492d",
+  "lightness": 0.275,
+  "position": 2063
+ },
+ {
+  "pair": "F/s18/claude-haiku-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 5,
+  "colour": "#3d5a3e",
+  "colour2": "#304630",
+  "lightness": 0.296,
+  "position": 710
+ },
+ {
+  "pair": "F/s18/claude-sonnet-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#2f4f3a",
+  "colour2": "#253e2d",
+  "lightness": 0.247,
+  "position": 1365
+ },
+ {
+  "pair": "F/s18/gpt-6-astra__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#293d30",
+  "colour2": "#203025",
+  "lightness": 0.2,
+  "position": 840
+ },
+ {
+  "pair": "F/s19/gpt-6-luna__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#26352d",
+  "colour2": "#1e2923",
+  "lightness": 0.178,
+  "position": 975
+ },
+ {
+  "pair": "F/s19/gpt-6.1-sol__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#253e31",
+  "colour2": "#1d3026",
+  "lightness": 0.194,
+  "position": 865
+ },
+ {
+  "pair": "S/medspa-aftercare/claude-haiku-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 5,
+  "colour": "#8a6f5c",
+  "colour2": "#6c5748",
+  "lightness": 0.451,
+  "position": 766
+ },
+ {
+  "pair": "S/medspa-aftercare/gpt-6-luna__high",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 26,
+  "colour": "#765b52",
+  "colour2": "#5c4740",
+  "lightness": 0.392,
+  "position": 6200
+ },
+ {
+  "pair": "S/medspa-aftercare/gpt-6-luna__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 14,
+  "colour": "#9a6f67",
+  "colour2": "#785650",
+  "lightness": 0.504,
+  "position": 4734
+ },
+ {
+  "pair": "S/salon-welcome/claude-sonnet-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 6,
+  "colour": "#5b6b4a",
+  "colour2": "#47533a",
+  "lightness": 0.355,
+  "position": 1418
+ },
+ {
+  "pair": "S/salon-welcome/gpt-6-luna__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 18,
+  "colour": "#596851",
+  "colour2": "#45513f",
+  "lightness": 0.363,
+  "position": 3675
+ },
+ {
+  "pair": "S/skin-winback/claude-haiku-5-5",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 5,
+  "colour": "#c9a48f",
+  "colour2": "#b07b5c",
+  "lightness": 0.675,
+  "position": 704
+ },
+ {
+  "pair": "S/spa-reminder/gpt-6-astra__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 14,
+  "colour": "#496653",
+  "colour2": "#395041",
+  "lightness": 0.343,
+  "position": 3031
+ },
+ {
+  "pair": "S/wellness-giftcard/gpt-6-astra__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 8,
+  "colour": "#294e40",
+  "colour2": "#203d32",
+  "lightness": 0.233,
+  "position": 1375
+ },
+ {
+  "pair": "S/yoga-newsletter/gpt-6.1-sol__low",
+  "injected": true,
+  "tag": "td",
+  "tag_index": 31,
+  "colour": "#405c4c",
+  "colour2": "#32483b",
+  "lightness": 0.306,
+  "position": 5803
+ }
+]

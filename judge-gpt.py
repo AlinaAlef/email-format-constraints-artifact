@@ -9,7 +9,7 @@ from PIL import Image
 
 _gai = socket.getaddrinfo
 socket.getaddrinfo = lambda *a, **k: [r for r in _gai(*a, **k) if r[0] == socket.AF_INET]
-ENV = "<home>/alpaca-relay/saas/next/email-platform/.env.local"
+ENV = "<repo-root>/.env.local"
 KEY = next(l.split("=", 1)[1].strip().strip('"') for l in open(ENV) if l.startswith("OPENROUTER_API_KEY="))
 MODEL = "openai/gpt-6.1-sol"
 TILE, MAX_TILES = 1500, 6

@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
 
 const require = createRequire(import.meta.url);
-const { chromium } = require("<home>/alpaca-relay/saas/next/email-platform/node_modules/.pnpm/playwright@1.56.1/node_modules/playwright");
+const { chromium } = require("<repo-root>/node_modules/.pnpm/playwright@1.56.1/node_modules/playwright");
 const PHONE_WIDTH = 375;
 
 const jobs = JSON.parse(readFileSync(process.argv[2], "utf8"));

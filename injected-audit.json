@@ -1,0 +1,754 @@
+{
+ "F/s01/gpt-6-astra__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 146,
+  "words_after": 146,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s01/gpt-6.1-sol__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 141,
+  "words_after": 141,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s02/claude-opus-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 292,
+  "words_after": 292,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s02/claude-sonnet-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 248,
+  "words_after": 248,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s02/gpt-6-luna__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 146,
+  "words_after": 146,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s03/claude-fable-5-1": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 250,
+  "words_after": 250,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s03/claude-haiku-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 218,
+  "words_after": 218,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s03/gpt-6-astra__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 147,
+  "words_after": 147,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s03/gpt-6-luna__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 110,
+  "words_after": 110,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s03/gpt-6.1-sol__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 119,
+  "words_after": 119,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s04/claude-opus-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 268,
+  "words_after": 268,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s04/gpt-6.1-sol__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 176,
+  "words_after": 176,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s05/claude-haiku-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 188,
+  "words_after": 188,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s05/gpt-6-luna__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 140,
+  "words_after": 140,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s06/gpt-6-luna__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 148,
+  "words_after": 148,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s08/gpt-6-astra__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 175,
+  "words_after": 175,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s08/gpt-6-astra__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 178,
+  "words_after": 178,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s09/gpt-6.1-sol__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 179,
+  "words_after": 179,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s10/claude-fable-5-1": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 275,
+  "words_after": 275,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s11/claude-haiku-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 211,
+  "words_after": 211,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s11/claude-sonnet-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 224,
+  "words_after": 224,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s11/gpt-6-luna__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 138,
+  "words_after": 138,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s11/gpt-6.1-sol__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 160,
+  "words_after": 160,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s12/claude-sonnet-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 229,
+  "words_after": 229,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s12/gpt-6-astra__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 181,
+  "words_after": 181,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s12/gpt-6-luna__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 168,
+  "words_after": 168,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s13/gpt-6-astra__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 171,
+  "words_after": 171,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s13/gpt-6-luna__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 186,
+  "words_after": 186,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s16/gpt-6-luna__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 157,
+  "words_after": 157,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s17/claude-fable-5-1": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 258,
+  "words_after": 258,
+  "phone_scroll_after": 395,
+  "rendered": true
+ },
+ "F/s17/claude-opus-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 251,
+  "words_after": 251,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s17/claude-sonnet-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 163,
+  "words_after": 163,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s18/claude-fable-5-1": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 314,
+  "words_after": 314,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s18/claude-haiku-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 127,
+  "words_after": 127,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s18/claude-sonnet-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 182,
+  "words_after": 182,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s18/gpt-6-astra__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 189,
+  "words_after": 189,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s19/gpt-6-luna__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 95,
+  "words_after": 95,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "F/s19/gpt-6.1-sol__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 123,
+  "words_after": 123,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/medspa-aftercare/claude-haiku-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 404,
+  "words_after": 404,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/medspa-aftercare/gpt-6-luna__high": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 314,
+  "words_after": 314,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/medspa-aftercare/gpt-6-luna__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 321,
+  "words_after": 321,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/salon-welcome/claude-sonnet-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 275,
+  "words_after": 275,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/salon-welcome/gpt-6-luna__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 195,
+  "words_after": 195,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/skin-winback/claude-haiku-5-5": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 169,
+  "words_after": 169,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/spa-reminder/gpt-6-astra__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 152,
+  "words_after": 152,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/wellness-giftcard/gpt-6-astra__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 204,
+  "words_after": 204,
+  "phone_scroll_after": 375,
+  "rendered": true
+ },
+ "S/yoga-newsletter/gpt-6.1-sol__low": {
+  "features_added": [
+   "css-background-image",
+   "css-linear-gradient"
+  ],
+  "features_removed": [],
+  "outlook_content_before": [],
+  "outlook_content_after": [
+   "css-linear-gradient"
+  ],
+  "outlook_layout_after": [],
+  "words_before": 324,
+  "words_after": 324,
+  "phone_scroll_after": 375,
+  "rendered": true
+ }
+}
