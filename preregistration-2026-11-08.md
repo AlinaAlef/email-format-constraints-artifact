@@ -182,3 +182,16 @@ Clarifications of E3 made while implementing it, before any injected pair was ju
   Outlook result for the risky pairs therefore keeps the caveat that a general advantage of compiled MJML in
   that client cannot be ruled out.
 - E7, the human panel, is open; no human answer has been recorded yet. It will be reported here when it closes.
+
+## Amendment 3, 13 November 2026: interval type in E6, and how the token and cost saving is stated
+
+- E6. The plan names 95% profile intervals for the regression coefficients. The script first published
+  (`e6-baseline-regression.py`, 8 November) printed Wald intervals from the fitted model instead, and the
+  article draft quoted those: risk odds ratio 7.4 [3.0, 18.0] for Opus and 5.0 [2.1, 11.5] for GPT. The script
+  now computes profile-likelihood intervals and prints the Wald ones beside them: 7.4 [3.1, 18.9] and
+  5.0 [2.2, 11.9]. Point estimates, p-values and the decision under the registered rule are unchanged (both
+  intervals exclude an odds ratio of 1).
+- Not part of the pre-registered tests, corrected in the article at the same time: the saving of the MJML
+  arm was stated as 23% of output tokens and 22% of cost, obtained by inverting the mean per-pair HTML/MJML
+  ratio (1.30 and 1.29). Summed over the 310 pairs the saving is 24% of output tokens and 27% of cost; the
+  article now gives these totals next to the per-pair ratios. The mean per-pair saving is 17% for both.

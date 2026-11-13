@@ -33,7 +33,7 @@ compatibility)? And does a browser-screenshot judge's preference follow the comp
 
 - words 218 vs 214 (+4 [−1, +8]); coverage 0.993 vs 0.995 (Opus), 0.972 vs 0.969 (GPT); invented claims 2.77 vs 2.79
   (Opus), 3.15 vs 3.20 (GPT); placeholders 0.142 vs 0.084 (+0.058 [+0.016, +0.106]); unsubscribe 40 % both.
-- tokens 2,595 vs 1,975 (+620 [+519, +723], ratio 1.30); cost $0.053 vs $0.039 (+$0.014, ratio 1.29); 24 s vs 21 s;
+- tokens 2,595 vs 1,975 (+620 [+519, +723], ratio 1.30); cost $0.053 vs $0.039 (+$0.014, ratio 1.29); summed over the 310 pairs MJML took 24% fewer output tokens and cost 27% less; 24 s vs 21 s;
   bytes 7.1 KB vs 24.1 KB.
 - MSO fallback 15/312 vs 310/310; media query 110/312 vs 310/310; table layout 273/312; phone overflow 8 vs 2.
 - Outlook Windows: layout 28/312 (9.0 %) vs 1/310; content 32/312 (10.3 %) vs 1/310. Gmail web: layout 24/312 (7.7 %) vs

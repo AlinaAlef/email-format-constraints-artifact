@@ -3,10 +3,18 @@ complexity are controlled? Logistic regression per judge on data/pairs.csv + dat
 usage: venv/bin/python e6-baseline-regression.py > e6-baseline-regression.txt"""
 import csv, numpy as np, statsmodels.api as sm
 from scipy.stats import spearmanr
+from scipy.optimize import brentq
 D = "<data-repo>/data/"
 pairs = list(csv.DictReader(open(D + "pairs.csv")))
 emails = {(e["set"], e["brief"], e["model"], e["format"]): e for e in csv.DictReader(open(D + "emails.csv"))}
 cnt = lambda s: 0 if not s else len([x for x in s.split(";") if x])
+def profile_ci(y, Xd, k, res):
+    """95% profile-likelihood interval for coefficient k (the interval the pre-registration names)."""
+    b, se, rest = res.params[k], res.bse[k], np.delete(Xd, k, axis=1)
+    def f(v): return 2 * (res.llf - sm.GLM(y, rest, family=sm.families.Binomial(), offset=v * Xd[:, k]).fit().llf) - 3.841458820694124
+    return brentq(f, b - 6 * se, b), brentq(f, b, b + 6 * se)
+
+
 rows = []
 for p in pairs:
     h = emails[(p["set"], p["brief"], p["model"], "html")]; m = emails[(p["set"], p["brief"], p["model"], "mjml")]
@@ -28,7 +36,8 @@ for judge in ("opus", "gpt"):
         ci = res.conf_int()
         print(f"\n[{judge}] {label}: n={len(y)}, pseudo-R2={res.prsquared:.3f}")
         for i, c in enumerate(cols):
-            print(f"  {names[c]:14s} OR {np.exp(res.params[i+1]):6.2f}  95% CI [{np.exp(ci[i+1][0]):.2f}, {np.exp(ci[i+1][1]):.2f}]  p={res.pvalues[i+1]:.4f}")
+            lo, hi = profile_ci(y, Xd, i + 1, res)
+            print(f"  {names[c]:14s} OR {np.exp(res.params[i+1]):6.2f}  95% profile CI [{np.exp(lo):.2f}, {np.exp(hi):.2f}]  (Wald [{np.exp(ci[i+1][0]):.2f}, {np.exp(ci[i+1][1]):.2f}])  p={res.pvalues[i+1]:.4f}")
 safe = [r for r in rows if not r["risky"]]
 for judge in ("opus", "gpt"):
     for k in ("html_cosmetic", "html_features", "d_bytes"):
@@ -42,6 +51,6 @@ for judge in ("opus", "gpt"):
     Xd = sm.add_constant(np.column_stack([Xs[:, [0]], F]))
     try:
         res = sm.Logit(y, Xd).fit(disp=0, maxiter=200); ci = res.conf_int()
-        print(f"[{judge}] risky + family: risky OR {np.exp(res.params[1]):.2f} [{np.exp(ci[1][0]):.2f}, {np.exp(ci[1][1]):.2f}] p={res.pvalues[1]:.4f}; " +
+        print(f"[{judge}] risky + family: risky OR {np.exp(res.params[1]):.2f} Wald [{np.exp(ci[1][0]):.2f}, {np.exp(ci[1][1]):.2f}] p={res.pvalues[1]:.4f}; " +
               "; ".join(f"{fam[i+1]} OR {np.exp(res.params[i+2]):.2f}" for i in range(len(fam)-1)))
     except Exception as e: print(f"[{judge}] risky + family: {type(e).__name__}: {e}")

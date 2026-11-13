@@ -2,26 +2,26 @@ pairs 310; risky 52; HTML wins Opus 139, GPT 133
 continuous predictors standardised (odds ratio per 1 SD): SDs bytes 5920, words 40.3, cosmetic 1.54, features 5.3
 
 [opus] risky only: n=310, pseudo-R2=0.048
-  risky          OR   4.22  95% CI [2.18, 8.18]  p=0.0000
+  risky          OR   4.22  95% profile CI [2.22, 8.43]  (Wald [2.18, 8.18])  p=0.0000
 
 [opus] risky + controls: n=310, pseudo-R2=0.082
-  risky          OR   7.38  95% CI [3.02, 18.04]  p=0.0000
-  d_bytes        OR   1.52  95% CI [1.07, 2.17]  p=0.0200
-  d_words        OR   1.09  95% CI [0.83, 1.42]  p=0.5414
-  html_cosmetic  OR   0.75  95% CI [0.51, 1.10]  p=0.1366
-  html_features  OR   1.78  95% CI [1.19, 2.66]  p=0.0050
-  set_F          OR   0.72  95% CI [0.39, 1.31]  p=0.2756
+  risky          OR   7.38  95% profile CI [3.13, 18.88]  (Wald [3.02, 18.04])  p=0.0000
+  d_bytes        OR   1.52  95% profile CI [1.07, 2.18]  (Wald [1.07, 2.17])  p=0.0200
+  d_words        OR   1.09  95% profile CI [0.83, 1.42]  (Wald [0.83, 1.42])  p=0.5414
+  html_cosmetic  OR   0.75  95% profile CI [0.50, 1.10]  (Wald [0.51, 1.10])  p=0.1366
+  html_features  OR   1.78  95% profile CI [1.20, 2.68]  (Wald [1.19, 2.66])  p=0.0050
+  set_F          OR   0.72  95% profile CI [0.39, 1.31]  (Wald [0.39, 1.31])  p=0.2756
 
 [gpt] risky only: n=310, pseudo-R2=0.036
-  risky          OR   3.36  95% CI [1.79, 6.32]  p=0.0002
+  risky          OR   3.36  95% profile CI [1.81, 6.45]  (Wald [1.79, 6.32])  p=0.0002
 
 [gpt] risky + controls: n=310, pseudo-R2=0.065
-  risky          OR   4.97  95% CI [2.14, 11.52]  p=0.0002
-  d_bytes        OR   1.22  95% CI [0.86, 1.73]  p=0.2757
-  d_words        OR   0.73  95% CI [0.55, 0.97]  p=0.0272
-  html_cosmetic  OR   0.63  95% CI [0.43, 0.92]  p=0.0182
-  html_features  OR   1.81  95% CI [1.21, 2.72]  p=0.0040
-  set_F          OR   0.85  95% CI [0.47, 1.54]  p=0.5902
+  risky          OR   4.97  95% profile CI [2.19, 11.86]  (Wald [2.14, 11.52])  p=0.0002
+  d_bytes        OR   1.22  95% profile CI [0.86, 1.74]  (Wald [0.86, 1.73])  p=0.2757
+  d_words        OR   0.73  95% profile CI [0.55, 0.96]  (Wald [0.55, 0.97])  p=0.0272
+  html_cosmetic  OR   0.63  95% profile CI [0.43, 0.92]  (Wald [0.43, 0.92])  p=0.0182
+  html_features  OR   1.81  95% profile CI [1.22, 2.74]  (Wald [1.21, 2.72])  p=0.0040
+  set_F          OR   0.85  95% profile CI [0.47, 1.55]  (Wald [0.47, 1.54])  p=0.5902
 safe pairs (n=258), Spearman html_cosmetic vs HTML win [opus]: rho=-0.005 p=0.932
 safe pairs (n=258), Spearman html_features vs HTML win [opus]: rho=+0.205 p=0.001
 safe pairs (n=258), Spearman d_bytes vs HTML win [opus]: rho=+0.086 p=0.169
@@ -30,5 +30,5 @@ safe pairs (n=258), Spearman html_features vs HTML win [gpt]: rho=+0.120 p=0.054
 safe pairs (n=258), Spearman d_bytes vs HTML win [gpt]: rho=-0.008 p=0.894
 
 families: ['Claude 4.x', 'Claude 5.x', 'GPT-6']
-[opus] risky + family: risky OR 12403123065.69 [0.00, inf] p=0.9995; Claude 5.x OR 6358166621.97; GPT-6 OR 1868538559.93
-[gpt] risky + family: risky OR 1.80 [0.24, 13.63] p=0.5691; Claude 5.x OR 0.94; GPT-6 OR 0.34
+[opus] risky + family: risky OR 12403123065.69 Wald [0.00, inf] p=0.9995; Claude 5.x OR 6358166621.97; GPT-6 OR 1868538559.93
+[gpt] risky + family: risky OR 1.80 Wald [0.24, 13.63] p=0.5691; Claude 5.x OR 0.94; GPT-6 OR 0.34
