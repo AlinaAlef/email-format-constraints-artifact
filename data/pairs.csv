@@ -1,0 +1,311 @@
+set,brief,model,risky,opus_verdict,gpt_verdict,family
+S,medspa-aftercare,claude-fable-5-1,False,html,split,Claude 5.x
+S,medspa-aftercare,claude-haiku-4-5,True,html,html,Claude 4.x
+S,medspa-aftercare,claude-haiku-5-5,False,split,mjml,Claude 5.x
+S,medspa-aftercare,claude-opus-5-5,False,html,html,Claude 5.x
+S,medspa-aftercare,claude-sonnet-4-6,True,mjml,mjml,Claude 4.x
+S,medspa-aftercare,claude-sonnet-5-5,False,html,html,Claude 5.x
+S,medspa-aftercare,gpt-6-astra__high,False,html,split,GPT-6
+S,medspa-aftercare,gpt-6-astra__low,False,html,html,GPT-6
+S,medspa-aftercare,gpt-6-luna__high,False,html,html,GPT-6
+S,medspa-aftercare,gpt-6-luna__low,False,html,html,GPT-6
+S,medspa-aftercare,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+S,medspa-aftercare,gpt-6.1-sol__low,False,mjml,split,GPT-6
+S,salon-welcome,claude-fable-5-1,False,html,split,Claude 5.x
+S,salon-welcome,claude-haiku-4-5,True,html,html,Claude 4.x
+S,salon-welcome,claude-haiku-5-5,False,html,html,Claude 5.x
+S,salon-welcome,claude-opus-5-5,False,html,html,Claude 5.x
+S,salon-welcome,claude-sonnet-4-6,True,split,split,Claude 4.x
+S,salon-welcome,claude-sonnet-5-5,False,html,html,Claude 5.x
+S,salon-welcome,gpt-6-astra__high,False,mjml,mjml,GPT-6
+S,salon-welcome,gpt-6-astra__low,False,mjml,split,GPT-6
+S,salon-welcome,gpt-6-luna__low,False,html,html,GPT-6
+S,salon-welcome,gpt-6.1-sol__high,False,html,split,GPT-6
+S,salon-welcome,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+S,skin-winback,claude-fable-5-1,False,split,mjml,Claude 5.x
+S,skin-winback,claude-haiku-4-5,True,html,html,Claude 4.x
+S,skin-winback,claude-haiku-5-5,False,html,html,Claude 5.x
+S,skin-winback,claude-opus-5-5,False,split,mjml,Claude 5.x
+S,skin-winback,claude-sonnet-4-6,True,mjml,mjml,Claude 4.x
+S,skin-winback,claude-sonnet-5-5,False,split,split,Claude 5.x
+S,skin-winback,gpt-6-astra__high,False,mjml,mjml,GPT-6
+S,skin-winback,gpt-6-astra__low,False,split,mjml,GPT-6
+S,skin-winback,gpt-6-luna__high,False,mjml,mjml,GPT-6
+S,skin-winback,gpt-6-luna__low,False,mjml,mjml,GPT-6
+S,skin-winback,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+S,skin-winback,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+S,spa-reminder,claude-fable-5-1,False,html,html,Claude 5.x
+S,spa-reminder,claude-haiku-4-5,True,html,html,Claude 4.x
+S,spa-reminder,claude-haiku-5-5,False,split,mjml,Claude 5.x
+S,spa-reminder,claude-opus-5-5,False,html,html,Claude 5.x
+S,spa-reminder,claude-sonnet-4-6,False,split,html,Claude 4.x
+S,spa-reminder,claude-sonnet-5-5,False,html,mjml,Claude 5.x
+S,spa-reminder,gpt-6-astra__high,False,split,mjml,GPT-6
+S,spa-reminder,gpt-6-astra__low,False,split,mjml,GPT-6
+S,spa-reminder,gpt-6-luna__high,False,html,split,GPT-6
+S,spa-reminder,gpt-6-luna__low,False,html,html,GPT-6
+S,spa-reminder,gpt-6.1-sol__high,False,mjml,split,GPT-6
+S,spa-reminder,gpt-6.1-sol__low,False,mjml,html,GPT-6
+S,wellness-giftcard,claude-fable-5-1,False,html,split,Claude 5.x
+S,wellness-giftcard,claude-haiku-4-5,True,html,html,Claude 4.x
+S,wellness-giftcard,claude-haiku-5-5,False,html,html,Claude 5.x
+S,wellness-giftcard,claude-opus-5-5,False,html,html,Claude 5.x
+S,wellness-giftcard,claude-sonnet-4-6,True,html,html,Claude 4.x
+S,wellness-giftcard,claude-sonnet-5-5,False,html,split,Claude 5.x
+S,wellness-giftcard,gpt-6-astra__high,False,split,mjml,GPT-6
+S,wellness-giftcard,gpt-6-astra__low,False,split,mjml,GPT-6
+S,wellness-giftcard,gpt-6-luna__high,False,html,html,GPT-6
+S,wellness-giftcard,gpt-6-luna__low,True,html,html,GPT-6
+S,wellness-giftcard,gpt-6.1-sol__high,False,split,mjml,GPT-6
+S,wellness-giftcard,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+S,yoga-newsletter,claude-fable-5-1,False,html,mjml,Claude 5.x
+S,yoga-newsletter,claude-haiku-4-5,True,html,html,Claude 4.x
+S,yoga-newsletter,claude-haiku-5-5,False,mjml,html,Claude 5.x
+S,yoga-newsletter,claude-opus-5-5,False,split,html,Claude 5.x
+S,yoga-newsletter,claude-sonnet-4-6,True,split,mjml,Claude 4.x
+S,yoga-newsletter,claude-sonnet-5-5,False,html,html,Claude 5.x
+S,yoga-newsletter,gpt-6-astra__high,False,split,split,GPT-6
+S,yoga-newsletter,gpt-6-astra__low,False,mjml,mjml,GPT-6
+S,yoga-newsletter,gpt-6-luna__high,False,html,html,GPT-6
+S,yoga-newsletter,gpt-6-luna__low,False,html,html,GPT-6
+S,yoga-newsletter,gpt-6.1-sol__high,False,mjml,html,GPT-6
+S,yoga-newsletter,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s01,claude-fable-5-1,False,html,html,Claude 5.x
+F,s01,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s01,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s01,claude-opus-5-5,False,split,mjml,Claude 5.x
+F,s01,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s01,claude-sonnet-5-5,False,split,html,Claude 5.x
+F,s01,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s01,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s01,gpt-6-luna__high,False,html,html,GPT-6
+F,s01,gpt-6-luna__low,False,html,html,GPT-6
+F,s01,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s01,gpt-6.1-sol__low,False,split,split,GPT-6
+F,s02,claude-fable-5-1,False,html,html,Claude 5.x
+F,s02,claude-haiku-4-5,True,split,html,Claude 4.x
+F,s02,claude-haiku-5-5,False,split,html,Claude 5.x
+F,s02,claude-opus-5-5,False,mjml,mjml,Claude 5.x
+F,s02,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s02,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s02,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s02,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s02,gpt-6-luna__high,False,mjml,mjml,GPT-6
+F,s02,gpt-6-luna__low,False,split,html,GPT-6
+F,s02,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s02,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s03,claude-fable-5-1,False,html,html,Claude 5.x
+F,s03,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s03,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s03,claude-opus-5-5,False,html,mjml,Claude 5.x
+F,s03,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s03,claude-sonnet-5-5,False,mjml,split,Claude 5.x
+F,s03,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s03,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s03,gpt-6-luna__high,False,html,split,GPT-6
+F,s03,gpt-6-luna__low,False,html,html,GPT-6
+F,s03,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s03,gpt-6.1-sol__low,False,html,mjml,GPT-6
+F,s04,claude-fable-5-1,False,split,html,Claude 5.x
+F,s04,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s04,claude-haiku-5-5,False,split,mjml,Claude 5.x
+F,s04,claude-opus-5-5,False,mjml,mjml,Claude 5.x
+F,s04,claude-sonnet-4-6,True,split,mjml,Claude 4.x
+F,s04,claude-sonnet-5-5,False,html,mjml,Claude 5.x
+F,s04,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s04,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s04,gpt-6-luna__high,False,html,html,GPT-6
+F,s04,gpt-6-luna__low,False,html,split,GPT-6
+F,s04,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s04,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s05,claude-fable-5-1,False,split,split,Claude 5.x
+F,s05,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s05,claude-haiku-5-5,False,mjml,mjml,Claude 5.x
+F,s05,claude-opus-5-5,False,html,mjml,Claude 5.x
+F,s05,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s05,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s05,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s05,gpt-6-astra__low,False,mjml,split,GPT-6
+F,s05,gpt-6-luna__high,False,html,html,GPT-6
+F,s05,gpt-6-luna__low,False,html,html,GPT-6
+F,s05,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s05,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s06,claude-fable-5-1,False,split,mjml,Claude 5.x
+F,s06,claude-haiku-4-5,True,split,mjml,Claude 4.x
+F,s06,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s06,claude-opus-5-5,False,mjml,html,Claude 5.x
+F,s06,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s06,claude-sonnet-5-5,False,html,split,Claude 5.x
+F,s06,gpt-6-astra__high,False,mjml,split,GPT-6
+F,s06,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s06,gpt-6-luna__high,False,mjml,mjml,GPT-6
+F,s06,gpt-6-luna__low,False,mjml,mjml,GPT-6
+F,s06,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s06,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s07,claude-fable-5-1,False,html,html,Claude 5.x
+F,s07,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s07,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s07,claude-opus-5-5,False,mjml,html,Claude 5.x
+F,s07,claude-sonnet-4-6,True,split,html,Claude 4.x
+F,s07,claude-sonnet-5-5,False,html,split,Claude 5.x
+F,s07,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s07,gpt-6-astra__low,False,mjml,split,GPT-6
+F,s07,gpt-6-luna__high,False,html,split,GPT-6
+F,s07,gpt-6-luna__low,False,html,html,GPT-6
+F,s07,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s07,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s08,claude-fable-5-1,False,html,mjml,Claude 5.x
+F,s08,claude-haiku-4-5,True,html,split,Claude 4.x
+F,s08,claude-haiku-5-5,False,split,html,Claude 5.x
+F,s08,claude-opus-5-5,False,split,mjml,Claude 5.x
+F,s08,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s08,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s08,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s08,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s08,gpt-6-luna__high,False,mjml,mjml,GPT-6
+F,s08,gpt-6-luna__low,False,html,html,GPT-6
+F,s08,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s08,gpt-6.1-sol__low,False,split,split,GPT-6
+F,s09,claude-fable-5-1,False,html,mjml,Claude 5.x
+F,s09,claude-haiku-4-5,True,mjml,mjml,Claude 4.x
+F,s09,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s09,claude-opus-5-5,False,split,mjml,Claude 5.x
+F,s09,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s09,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s09,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s09,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s09,gpt-6-luna__high,False,html,html,GPT-6
+F,s09,gpt-6-luna__low,False,html,html,GPT-6
+F,s09,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s09,gpt-6.1-sol__low,False,split,mjml,GPT-6
+F,s10,claude-fable-5-1,False,mjml,mjml,Claude 5.x
+F,s10,claude-haiku-4-5,True,mjml,split,Claude 4.x
+F,s10,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s10,claude-opus-5-5,False,mjml,mjml,Claude 5.x
+F,s10,claude-sonnet-4-6,False,split,html,Claude 4.x
+F,s10,claude-sonnet-5-5,False,mjml,mjml,Claude 5.x
+F,s10,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s10,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s10,gpt-6-luna__high,False,html,html,GPT-6
+F,s10,gpt-6-luna__low,False,html,html,GPT-6
+F,s10,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s10,gpt-6.1-sol__low,False,html,html,GPT-6
+F,s11,claude-fable-5-1,False,html,html,Claude 5.x
+F,s11,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s11,claude-haiku-5-5,False,html,mjml,Claude 5.x
+F,s11,claude-opus-5-5,False,split,html,Claude 5.x
+F,s11,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s11,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s11,gpt-6-astra__high,False,mjml,split,GPT-6
+F,s11,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s11,gpt-6-luna__high,False,html,html,GPT-6
+F,s11,gpt-6-luna__low,False,html,html,GPT-6
+F,s11,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s11,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s12,claude-fable-5-1,False,html,html,Claude 5.x
+F,s12,claude-haiku-4-5,True,html,split,Claude 4.x
+F,s12,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s12,claude-opus-5-5,False,split,split,Claude 5.x
+F,s12,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s12,claude-sonnet-5-5,False,html,split,Claude 5.x
+F,s12,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s12,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s12,gpt-6-luna__high,False,mjml,split,GPT-6
+F,s12,gpt-6-luna__low,False,mjml,mjml,GPT-6
+F,s12,gpt-6.1-sol__high,False,split,html,GPT-6
+F,s12,gpt-6.1-sol__low,False,split,html,GPT-6
+F,s13,claude-fable-5-1,False,html,mjml,Claude 5.x
+F,s13,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s13,claude-haiku-5-5,False,split,mjml,Claude 5.x
+F,s13,claude-opus-5-5,False,split,mjml,Claude 5.x
+F,s13,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s13,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s13,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s13,gpt-6-astra__low,False,mjml,html,GPT-6
+F,s13,gpt-6-luna__high,False,html,mjml,GPT-6
+F,s13,gpt-6-luna__low,False,html,html,GPT-6
+F,s13,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s13,gpt-6.1-sol__low,False,mjml,html,GPT-6
+F,s14,claude-fable-5-1,False,html,split,Claude 5.x
+F,s14,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s14,claude-haiku-5-5,False,mjml,html,Claude 5.x
+F,s14,claude-opus-5-5,False,split,mjml,Claude 5.x
+F,s14,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s14,claude-sonnet-5-5,True,html,html,Claude 5.x
+F,s14,gpt-6-astra__high,False,html,html,GPT-6
+F,s14,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s14,gpt-6-luna__high,False,html,html,GPT-6
+F,s14,gpt-6-luna__low,False,html,html,GPT-6
+F,s14,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s14,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s15,claude-fable-5-1,False,split,mjml,Claude 5.x
+F,s15,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s15,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s15,claude-opus-5-5,False,html,html,Claude 5.x
+F,s15,claude-sonnet-4-6,True,mjml,html,Claude 4.x
+F,s15,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s15,gpt-6-astra__high,False,split,mjml,GPT-6
+F,s15,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s15,gpt-6-luna__high,False,html,html,GPT-6
+F,s15,gpt-6-luna__low,False,html,html,GPT-6
+F,s15,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s15,gpt-6.1-sol__low,False,mjml,html,GPT-6
+F,s16,claude-fable-5-1,False,split,mjml,Claude 5.x
+F,s16,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s16,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s16,claude-opus-5-5,False,html,html,Claude 5.x
+F,s16,claude-sonnet-4-6,True,html,html,Claude 4.x
+F,s16,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s16,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s16,gpt-6-astra__low,False,mjml,html,GPT-6
+F,s16,gpt-6-luna__high,False,html,split,GPT-6
+F,s16,gpt-6-luna__low,False,html,html,GPT-6
+F,s16,gpt-6.1-sol__high,False,mjml,split,GPT-6
+F,s16,gpt-6.1-sol__low,False,html,split,GPT-6
+F,s17,claude-fable-5-1,False,mjml,mjml,Claude 5.x
+F,s17,claude-haiku-4-5,True,html,mjml,Claude 4.x
+F,s17,claude-opus-5-5,False,mjml,mjml,Claude 5.x
+F,s17,claude-sonnet-4-6,True,mjml,mjml,Claude 4.x
+F,s17,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s17,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s17,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s17,gpt-6-luna__high,False,html,html,GPT-6
+F,s17,gpt-6-luna__low,False,mjml,mjml,GPT-6
+F,s17,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s17,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s18,claude-fable-5-1,False,mjml,mjml,Claude 5.x
+F,s18,claude-haiku-4-5,True,html,split,Claude 4.x
+F,s18,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s18,claude-opus-5-5,False,mjml,split,Claude 5.x
+F,s18,claude-sonnet-4-6,True,html,split,Claude 4.x
+F,s18,claude-sonnet-5-5,False,split,split,Claude 5.x
+F,s18,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s18,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s18,gpt-6-luna__high,False,split,split,GPT-6
+F,s18,gpt-6-luna__low,False,mjml,mjml,GPT-6
+F,s18,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s18,gpt-6.1-sol__low,False,mjml,mjml,GPT-6
+F,s19,claude-fable-5-1,False,mjml,mjml,Claude 5.x
+F,s19,claude-haiku-4-5,True,html,html,Claude 4.x
+F,s19,claude-haiku-5-5,False,html,html,Claude 5.x
+F,s19,claude-opus-5-5,False,html,html,Claude 5.x
+F,s19,claude-sonnet-4-6,True,html,mjml,Claude 4.x
+F,s19,claude-sonnet-5-5,False,html,html,Claude 5.x
+F,s19,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s19,gpt-6-astra__low,False,split,mjml,GPT-6
+F,s19,gpt-6-luna__high,False,mjml,html,GPT-6
+F,s19,gpt-6-luna__low,False,html,split,GPT-6
+F,s19,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s19,gpt-6.1-sol__low,False,mjml,split,GPT-6
+F,s20,claude-fable-5-1,False,mjml,split,Claude 5.x
+F,s20,claude-haiku-4-5,True,mjml,mjml,Claude 4.x
+F,s20,claude-haiku-5-5,False,split,html,Claude 5.x
+F,s20,claude-opus-5-5,False,mjml,mjml,Claude 5.x
+F,s20,claude-sonnet-4-6,True,mjml,mjml,Claude 4.x
+F,s20,claude-sonnet-5-5,False,mjml,html,Claude 5.x
+F,s20,gpt-6-astra__high,False,mjml,mjml,GPT-6
+F,s20,gpt-6-astra__low,False,mjml,mjml,GPT-6
+F,s20,gpt-6-luna__high,False,html,html,GPT-6
+F,s20,gpt-6-luna__low,False,split,html,GPT-6
+F,s20,gpt-6.1-sol__high,False,mjml,mjml,GPT-6
+F,s20,gpt-6.1-sol__low,False,mjml,split,GPT-6

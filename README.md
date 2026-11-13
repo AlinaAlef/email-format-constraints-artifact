@@ -1,67 +1,39 @@
-# Format constraints: raw HTML vs MJML-constrained generation (article 2, "Constrained by Design")
+# Constrained by Design: anonymous re-analysis package
 
-Question: when a model is forced to write an email in a component language (MJML) instead of free HTML, what does
-the constraint cost (copy, coverage, invention, cost, a judge's impression) and what does it buy (mail-client
-compatibility)? And does a browser-screenshot judge's preference follow the compatibility risk or run against it?
+This package accompanies a paired comparison of LLM-generated free HTML and compiled MJML email, and screenshot judging across renderers. It contains records of 624 original generation attempts (622 successful emails, 310 complete pairs), the supplied analysis results and scripts, follow-up verdicts, and prospective follow-up plans with dated amendments.
 
-## Data
+## Run offline checks
 
-- **Set S** (2026-10-09): `generation-approaches/2026-10-09-raw-formats/` — six wellness briefs (`prompts-setS.json`,
-  exported from `scripts/v3/prompts.ts`) × 12 model configurations × raw MJML / raw HTML = 72 HTML + 71 MJML (one MJML
-  did not compile: `<body>` for `<mj-body>`). Also 24 + 24 MJML with a styling reference (v1 / v2), Claude 5.x only.
-- **Set F** (2026-10-29): `generation-approaches/2026-10-29-raw-formats-setF/` — the 20 synthetic-20 businesses (brief +
-  "Details about the business:" + fact sheet, `prompts.json`) × 12 configurations × 2 formats = 240 HTML + 239 MJML (one
-  MJML had a doubled `<mjml>` root and compiled to nothing). Generated with `scripts/compare-setf.ts` (UNTRACKED copy of
-  `scripts/compare-generation-approaches.ts`: `--prompt-file`, in-memory usage reporter instead of the database, no
-  harness import, judge wording "for a small business"), `--combos 'raw__*,raw-html__*' --concurrency 4 --compat-tool
-  research/generation-approaches/tools/doiuse --judge`. Generation $19.95, Opus judge $13.22.
-- Can I Email database: scratchpad `caniemail/data.json`, `last_update 2026-09-16`, 308 features, downloaded 2026-10-28.
+Use Python 3.11 or later. Install `requirements-reanalysis.txt`, then run from this directory:
 
-## Scripts (all `python3 -I`)
+```bash
+python3 verify-summary.py
+python3 reproduce-statistics.py
+python3 e6-baseline-regression.py
+python3 pooled.py results-S.json results-F.json
+python3 figures.py figures results-S.json results-F.json
+```
 
-| script | what |
-|---|---|
-| `audit.py` | Can I Email audit primitives (Collector, css_features, html_features, latest). Patched 2026-10-29: `float: none` and `position: static` are not feature uses (mj-social emits `float:none`). |
-| `analyze-formats.py <set> <run> <caniemail> <prompts> [claims dir]` | per-email measures (features outside `@media` only; classes layout / content / fonts / cosmetic; MSO, media query, table layout, Google Fonts, bytes, words, placeholders, unsubscribe, phone scroll, pipeline flags), both screenshot judges (`judge/`, `judge-gpt/`), claims judges, paired bootstrap CIs → `results-<set>.json`, printed summary (`analysis-<set>.txt`). `analyze_formats.py` is a copy for import. |
-| `claims-judge-formats.py <set> <run> <prompts>` | text-only claims + coverage judges (Opus 5.5, GPT-6.1 Sol via OpenRouter) → `claims-judge/<set>/<judge>/<brief>__<combo>.json`. S $4.77, F $9.83. |
-| `judge-gpt.py <run> <prompts> [conc]` | second blind screenshot judge, GPT-6.1 Sol via OpenRouter, same instruction/schema/tiles as the runner's Opus judge → `<run>/judge-gpt/`. S $2.29, F $6.36. |
-| `styled-arm.py <run> <caniemail>` | the MJML + styling-reference arms on set S → `results-styled.json`. |
-| `pooled.py results-S.json results-F.json` | pooled contrasts, shares, judges by family and by risk → `pooled.txt`. |
-| `figures.py <out> results-S.json results-F.json --sheet <run F>` | fig1-pairs (s17 contact sheet), fig2-risk, fig3-models → `o1-articles/figures/article2/` (venv in scratchpad: matplotlib, Pillow). |
+The first command writes `verification-summary.json` and prints aggregate savings, Fisher tests and exploratory request-cluster bootstrap intervals. `reproduce-statistics.py` prints the paired Wilcoxon tests, marginal Cliff deltas and E6 profile intervals directly from JSON records. The E6 script reads derived CSVs in `data/` and prints profile and Wald intervals. The saved reference E6 output is `e6-baseline-regression.txt`. The original pair-bootstrap summary is `pooled.txt`. No API key, model call or rendering service is needed for these commands. The additional risk-plus-family diagnostic may warn about non-convergence; it illustrates the reported family collinearity and is not used as an estimable main effect. Tested package versions are pinned in the requirements file.
 
-## Final numbers (pooled, 312 HTML / 310 MJML, 310 pairs; HTML − MJML, 95 % bootstrap)
+## Data and interpretation
 
-- words 218 vs 214 (+4 [−1, +8]); coverage 0.993 vs 0.995 (Opus), 0.972 vs 0.969 (GPT); invented claims 2.77 vs 2.79
-  (Opus), 3.15 vs 3.20 (GPT); placeholders 0.142 vs 0.084 (+0.058 [+0.016, +0.106]); unsubscribe 40 % both.
-- tokens 2,595 vs 1,975 (+620 [+519, +723], ratio 1.30); cost $0.053 vs $0.039 (+$0.014, ratio 1.29); summed over the 310 pairs MJML took 24% fewer output tokens and cost 27% less; 24 s vs 21 s;
-  bytes 7.1 KB vs 24.1 KB.
-- MSO fallback 15/312 vs 310/310; media query 110/312 vs 310/310; table layout 273/312; phone overflow 8 vs 2.
-- Outlook Windows: layout 28/312 (9.0 %) vs 1/310; content 32/312 (10.3 %) vs 1/310. Gmail web: layout 24/312 (7.7 %) vs
-  1/310; content 8/312 vs 0. Web fonts: 6/312 vs 36/310 (MJML loads Google Fonts more). Apple Mail: 0 both.
-- Features: flex 16, align-items 13, position 8, offsets 7, gap 7, transform 3; gradient 28, ::before 8, form/svg 1 each.
-- Family (HTML): Claude 4.x 52 emails → no-table 39, Outlook layout 26, content 32; Claude 5.x 104 → layout 1, MSO 14, mq 74;
-  GPT-6 156 → layout 1, MSO 0, mq 18. doiuse flags 44 HTML / 0 MJML.
-- Opus judge: 139 HTML : 121 MJML : 50 split; design +0.32 [+0.20, +0.44], readability +0.22, coverage +0.06 n.s., phone
-  −0.05 n.s., overall +0.23 [+0.09, +0.37]; first-slot 56 % (S) / 51 % (F). GPT judge: 133 : 132 : 45; design +0.14
-  [+0.05, +0.24], readability +0.16, phone −0.12 [−0.22, −0.03], overall +0.04 n.s.; second slot 55 % / 51 %. Agreement
-  198/224 decided pairs; score-difference correlation 0.70 (S), 0.69 (F).
-- By family (Opus / GPT): Claude 5.x 59:19:25 / 54:34:15; Claude 4.x 36:8:8 / 35:11:6; GPT-6 44:94:17 / 44:87:24.
-- **Renderer bias:** HTML risky (Outlook layout/content or flag, 52 pairs): Opus 38:8:6, GPT 35:11:6; HTML safe (258):
-  Opus 101:113:44, GPT 98:121:39. No-table HTML (39): Opus 30:5:4. Reasons: "polished" 36, "card" 27 of 82 risky wins.
-- Styled arm (24 pairs, Claude 5.x, set S): plain MJML 1:17:6 (7.65 vs 8.44); ref v1 5:14:5 (7.69 vs 8.19); ref v2
-  5:15:4 (7.81 vs 8.25); all MSO + mq, 0 layout/content risk; tokens 2,865 → 3,099 / 2,893.
+`results-S.json` and `results-F.json` store per-email measures and pair verdicts; `prompts-setS.json` and `prompts-setF.json` contain fictional briefs and fact sheets. S has 144 attempts, F has 480. The two failed MJML compilations remain recorded; paired quality and cost estimates condition on success in both arms.
 
-## Limits to state
+The pooled token means are 2,595 (HTML) and 1,975 (MJML); costs are $0.053 and $0.039. The aggregate saving, `1 - sum(MJML)/sum(HTML)` over complete pairs, is 24% for output tokens and 27% for cost. The mean of per-pair HTML/MJML ratios is separately 1.30 and 1.29; it is a different estimand.
 
-Support is looked up, not rendered in real clients; "unsupported" with a fallback degrades rather than breaks. Database
-hand-maintained and dated. One instruction, no images/brand. Judges are models. Prices on one day.
+`data/emails.csv` (622 rows) and `data/pairs.csv` (310 rows) are derived from the JSON records for portable E6 re-analysis. They do not substitute for primary generation logs. `results-degraded.json`, `degraded-removals.json`, `results-preflight.json`, `followups.csv`, `results-R.json`, `results-styled.json`, and their text reports document the interventions and follow-ups. P-values are nominal, two-sided and unadjusted across the registered questions. The pair-level analysis does not account for all dependence from reused briefs and configurations.
 
-## Pre-registered follow-ups (8 to 9 November 2026)
+## Study sequence
 
-`preregistration-2026-11-08.md` (hypotheses, samples, decision rules; committed before any run) and its amendment; `preregistration-e7-human-panel.md`.
-Shared code `judgelib.py` (same instruction, schema, tiles and both orders as the original judges; OpenRouter). E1 `judge-warned.py` (generic / specific
-warning about classic Outlook), E3 `inject-gradient.py` (one gradient into the first coloured block of 47 safe free-HTML emails; `injected-log.json`,
-`injected-audit.json`) + `judge-injected.py`, E4 `judge-third.py` (Gemini 3.1 Pro preview), E5 re-run of Claude Sonnet 4.6 and GPT-6 Astra high on the
-20 set-F briefs (`results-R.json`, `e5-compare.py` -> `e5-compare.txt`), E6 `e6-baseline-regression.py` -> `.txt`. Results: `analyze-followups.py` ->
-`followups.txt`; per-pair verdicts of every follow-up run: `followups.csv` (`export-followups.py`). Paths in the scripts are placeholders
-(`<repo-root>`, `<runs>`, `<data-repo>`); the generated emails and screenshots are not in this package.
+The original format comparison, post-hoc risk split, feature-removal intervention and first real-client renders were exploratory. `preregistration-2026-11-08.md` specifies follow-ups and includes Amendments 1--3. E1, E3, E4, E5 and E6 ran. E2 (safe-pair Outlook controls) did not run. The initial E6 analysis printed Wald intervals; Amendment 3 adds the prospectively specified profile intervals without changing the point estimates. The main registration is included in full. `preregistration-e7-human-panel.md` registers a separate human panel; it is open, has no recorded answers yet, and is not reported in the paper.
+
+## Re-analysis versus full replication
+
+The package supports re-analysis of stored measurements and verdicts. It currently omits original HTML/MJML, rendered screenshots, the frozen Can I Email database and parts of the generation harness. The author reports retaining generated artifacts and judge outputs; raw API request/response logs are incomplete. Accordingly, the audit cannot be independently rerun against original markup from this package alone, and target screenshots cannot be visually verified here.
+
+Other generation, rendering and judging scripts are archived for methodological inspection. They require original run directories, the support-database snapshot, appropriate dependencies and service credentials; placeholder paths must be configured. Do not interpret those scripts as a self-contained regeneration pipeline.
+
+E6 controls do not resolve generator-family collinearity. Real-client results concern only the 52 risky pairs, and Outlook/Chrome capture extents differ. Unsupported CSS is an audited risk, not proof that every affected email visibly breaks. An audit-informed judge is not a replacement for a target-client render.
+
+See `CHANGES-2026-11-13.md` for changes made while preparing this package.

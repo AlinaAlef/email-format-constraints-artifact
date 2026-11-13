@@ -4,7 +4,8 @@ usage: venv/bin/python e6-baseline-regression.py > e6-baseline-regression.txt"""
 import csv, numpy as np, statsmodels.api as sm
 from scipy.stats import spearmanr
 from scipy.optimize import brentq
-D = "<data-repo>/data/"
+from pathlib import Path
+D = str(Path(__file__).resolve().parent / "data") + "/"
 pairs = list(csv.DictReader(open(D + "pairs.csv")))
 emails = {(e["set"], e["brief"], e["model"], e["format"]): e for e in csv.DictReader(open(D + "emails.csv"))}
 cnt = lambda s: 0 if not s else len([x for x in s.split(";") if x])
